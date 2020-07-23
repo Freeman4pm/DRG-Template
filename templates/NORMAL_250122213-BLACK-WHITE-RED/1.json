@@ -292,7 +292,10 @@
 #set($price1_dec = $price1_s.substring($price_len - 4, $price_len - 2))
 
 		{
-			
+			"start_x":145,
+			"start_y":1,
+			"end_x":200,
+			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($price1_int == "")
@@ -314,16 +317,8 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>10)
-			"start_x":145,
-			"start_y":1,
-			"end_x":200,
-			"end_y":80,
 			"font_type":"JanBold 28",
 #else
-			"start_x":145,
-			"start_y":1,
-			"end_x":200,
-			"end_y":80,
 			"font_type":"JanBold 36",
 #end
 			"auto_wrap":false,
@@ -354,7 +349,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>10)
-			"start_x":207,
+			"start_x":202,
 			"start_y":32,
 			"end_x":249,
 			"end_y":65,
@@ -376,7 +371,10 @@
 			"text_decoration":"none"
 		},
 		{
-
+			"start_x":202,
+			"start_y":20,
+			"end_x":249,
+			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
@@ -394,16 +392,8 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>10)
-			"start_x":202,
-			"start_y":20,
-			"end_x":249,
-			"end_y":80,
 			"font_type":"JanBold 30",
 #else
-			"start_x":202,
-			"start_y":20,
-			"end_x":249,
-			"end_y":80,
 			"font_type":"JanBold 40",
 #end
 			"auto_wrap":false,
