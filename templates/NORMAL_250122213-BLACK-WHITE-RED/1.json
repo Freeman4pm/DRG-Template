@@ -288,8 +288,8 @@
 #end
 #set($price1_s = $util.toString($price1))
 #set($price_len = $util.strlen($price1_s))
-#set($price1_int = $price1_s.substring(0, $price_len - 3))
-#set($price1_dec = $price1_s.substring($price_len - 2, $price_len))
+#set($price1_int = $price1_s.substring(0, $price_len - 5))
+#set($price1_dec = $price1_s.substring($price_len - 4, $price_len - 2))
 
 		{
 			"start_x":160,
@@ -327,7 +327,7 @@
 			"text_decoration":"none"
 		},	
 		{
-			"start_x":200,
+			"start_x":202,
 			"start_y":23,
 			"end_x":249,
 			"end_y":50,
@@ -361,6 +361,38 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+		{
+			"start_x":202,
+			"start_y":23,
+			"end_x":249,
+			"end_y":80,
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":".",
+			"custom_content_value":"1",
+			"content_color":"WHITE",
+			"content_background_color":"RED",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"font_type":"JanBold 30",
+			"auto_wrap":true,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		},
+
 
 		{
 			"start_x":192,
