@@ -298,7 +298,11 @@
 			"end_y":100,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
+#if($price1_int == "")
+			"content_value":"0",
+#else
 			"content_value":"$price1_int",
+#end
 			"custom_content_value":"1",
 			"content_color":"WHITE",
 			"content_background_color":"RED",
