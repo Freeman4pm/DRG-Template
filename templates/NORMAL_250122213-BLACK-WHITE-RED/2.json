@@ -438,7 +438,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price1>10)
+#if($price1>=10)
 			"font_type":"JanBold 28",
 #else
 			"font_type":"JanBold 36",
@@ -470,7 +470,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price1>10)
+#if($price1>=10)
 			"start_x":202,
 			"start_y":32,
 			"end_x":249,
@@ -513,7 +513,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price1>10)
+#if($price1>=10)
 			"font_type":"JanBold 30",
 #else
 			"font_type":"JanBold 40",
