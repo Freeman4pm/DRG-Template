@@ -395,6 +395,7 @@
 			"font_type":"JanBold 35",
 #else
 			"font_type":"JanBold 40",
+#end
 			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
