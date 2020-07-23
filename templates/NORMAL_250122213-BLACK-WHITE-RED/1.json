@@ -350,9 +350,9 @@
 			"visible":true,
 #if($price1>10)
 			"start_x":202,
-			"start_y":35,
+			"start_y":34,
 			"end_x":249,
-			"end_y":70,
+			"end_y":69,
 			"font_type":"JanBold 17",
 #else
 			"start_x":202,
@@ -392,7 +392,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>10)
-			"font_type":"JanBold 32",
+			"font_type":"JanBold 30",
 #else
 			"font_type":"JanBold 40",
 #end
