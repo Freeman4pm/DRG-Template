@@ -331,10 +331,7 @@
 			"text_decoration":"none"
 		},	
 		{
-			"start_x":202,
-			"start_y":33,
-			"end_x":249,
-			"end_y":60,
+			
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"$price1_dec",
@@ -343,7 +340,7 @@
 			"content_background_color":"RED",
 			"content_reverse":false,
 			"content_alignment":"left",
-			"content_vertical_alignment":"top",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -352,8 +349,16 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>10)
-			"font_type":"JanBold 15",
+			"start_x":202,
+			"start_y":35,
+			"end_x":249,
+			"end_y":70,
+			"font_type":"JanBold 17",
 #else
+			"start_x":202,
+			"start_y":33,
+			"end_x":249,
+			"end_y":60,
 			"font_type":"JanBold 20",
 #end
 			"auto_wrap":false,
@@ -386,6 +391,9 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price1>10)
+			"font_type":"JanBold 35",
+#else
 			"font_type":"JanBold 40",
 			"auto_wrap":false,
 			"auto_scale":false,
