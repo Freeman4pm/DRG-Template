@@ -295,7 +295,7 @@
 			"start_x":160,
 			"start_y":23,
 			"end_x":249,
-			"end_y":85,
+			"end_y":100,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"$price1_int",
@@ -317,7 +317,7 @@
 #else
 			"font_type":"JanBold 36",
 #end
-			"auto_wrap":true,
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -352,7 +352,7 @@
 #else
 			"font_type":"JanBold 20",
 #end
-			"auto_wrap":true,
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -363,7 +363,7 @@
 		},
 		{
 			"start_x":202,
-			"start_y":23,
+			"start_y":30,
 			"end_x":249,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -382,8 +382,8 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold 30",
-			"auto_wrap":true,
+			"font_type":"JanBold 40",
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
