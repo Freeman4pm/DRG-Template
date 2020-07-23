@@ -1,0 +1,47 @@
+{
+    "template": "无命名_250122213-BLACK-WHITE",
+    "epd_type": "64_1",
+    "block_num": 3,
+    "encoding": "UTF-8",
+    "screen_block": [
+       
+		{
+            "start_x": 50,
+            "start_y": 0,
+            "end_x": 100,
+            "end_y": 100,
+            "font_type": "Zfull-GB Regular 16",
+            "font_size": 16.0,
+            "content_type": "CONTENT_TYPE_TEXT",
+            "content_title": "NONE",
+            "content_value": "非促销1",
+            "content_color": "BLACK",
+            "content_alignment": "LEFT",
+            "number_script": "NONE",
+            "number_gap": "CONSECUTIVE",
+            "font_type_script": "Arial",
+            "font_size_script": 16.0,
+            "content_reverse": "FALSE",
+            "origin_font_type": 0
+        },
+        {
+            "start_x": 20,
+            "start_y": 20,
+            "end_x": 150,
+            "end_y": 100,
+            "font_type": "Zfull-GB Regular 15",
+            "font_size": 16.0,
+            "content_type": "CONTENT_TYPE_NUMBER",
+            "content_title": "price1",
+            "content_value": "55",
+            "content_color": "BLACK",
+            "content_alignment": "LEFT",
+            "number_script": "SUPER",
+            "number_gap": "CONSECUTIVE",
+            "font_type_script": "Zfull-GB Regular 15",
+            "font_size_script": 16.0,
+            "content_reverse": "FALSE",
+            "origin_font_type": 0
+        }
+    ]
+}

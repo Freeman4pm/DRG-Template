@@ -1,0 +1,255 @@
+{
+  "HS_EL_5007_1": {
+    "normal":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero","maxlen":6},
+      "flags": {"format":"H", "check_fun":"int","maxlen":2,"flag":["originalPrice","500g","ST","SN", "currentPrice"] },
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "promo":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero", "maxlen":6},
+      "flags": {"format":"H","check_fun":"int","maxlen":2,"flag":["promo","originalPrice","promo_reverse","1000g","SN", "currentPrice"] },
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "_UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    },
+    "UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    }
+  },
+
+  "HS_EL_5007_3": {
+    "normal":{
+      "title"     : ["Price", "Price1",  "salesno"],
+      "Price"     : {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1" : {"format":"16s", "check_fun":"empty_with_zero","maxlen":6},
+      "flags" : {"format":"H", "check_fun":"int","maxlen":2,"flag":["originalPrice"
+        #if(${unit} == "个")
+      ,"ge"
+        #elseif(${unit} == "把")
+      ,"ba"
+        #elseif(${unit} == "盒")
+      ,"he"
+        #else
+      ,"500g"
+        #end
+      ] },
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":15},
+      "check_key":["Price1", "Price2"]
+    },
+    "promo":{
+      "title"     : ["Price", "Price1", "salesno"],
+      "Price"     : {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1" : {"format":"16s", "check_fun":"empty_with_zero", "maxlen":6},
+      "flags" : {"format":"H","check_fun":"int","maxlen":2,"flag":["promo","originalPrice","promo_reverse"
+        #if(${unit} == "个")
+      ,"ge"
+        #elseif(${unit} == "把")
+      ,"ba"
+        #elseif(${unit} == "盒")
+      ,"he"
+        #else
+      ,"500g"
+        #end
+      ]},
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":15},
+      "check_key":["Price1", "Price2"]
+    },
+    "_UNBIND":{
+      "title"     : ["Unbind"],
+      "Unbind"    : {"format":"16s", "check_fun":"str", "maxlen":6}
+    },
+    "UNBIND":{
+      "title"     : ["Unbind"],
+      "Unbind"    : {"format":"16s", "check_fun":"str", "maxlen":6}
+    }
+  },
+
+  "HS_EL_5032_1": {
+    "normal":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero","maxlen":6},
+      "flags": {"format":"H", "check_fun":"int","maxlen":2,"flag":["originalPrice" ]},
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "promo":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero", "maxlen":6},
+      "flags": {"format":"H","check_fun":"int","maxlen":2,"flag":["promo", "arrow_5032","black_ground","1000g","sn"] },
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "_UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    },
+    "UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    }
+  },
+
+  "HS_EL_5033": {
+    "normal":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero","maxlen":6},
+      "flags": {"format":"H", "check_fun":"int","maxlen":2,"flag":["originalPrice","1000g"]},
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "promo":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero", "maxlen":6},
+      "flags": {"format":"H","check_fun":"int","maxlen":2,"flag":["promo", "arrow_5032","black_ground","1000g","sn"] },
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "_UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    },
+    "UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    }    
+  },
+
+  "HS_EL_5032_2": {
+    "normal":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero","maxlen":6},
+      "flags": {"format":"H", "check_fun":"int","maxlen":2,"flag":["originalPrice", "500g", "sn"]},
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "promo":{
+      "title": ["Price", "Price1", "salesno"],
+      "Price": {"format":"16s","check_fun":"check_price","maxlen":6},
+      "Price1": {"format":"16s", "check_fun":"empty_with_zero", "maxlen":6},
+      "flags": {"format":"H","check_fun":"int","maxlen":2,"flag":["promo", "arrow_5032","black_ground","500g","sn", "originalPrice"] },
+      "salesno": {"format":"16s", "check_fun":"str", "maxlen":6},
+      "check_key":["Price1", "Price2"]
+    },
+    "_UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    },
+    "UNBIND":{
+      "title": ["Unbind"],
+      "Unbind": {"format":"16s", "check_fun":"str", "maxlen":6}
+    }
+  },
+
+  "default_temp": {
+    "normal":{
+      "title": ["Price", "Price1", "Price2", "Price3"],
+      "Price": {"format":"16s", "check_fun":"check_price", "maxlen":9},
+      "Price1": {"format":"16s", "check_fun":"check_price_int_str", "maxlen":5},
+      "Price2": {"format":"16s", "check_fun":"check_price_int_str", "maxlen":5},
+      "Price3": {"format":"16s", "check_fun":"check_price_int_str", "maxlen":5},
+      "flags": {"format":"H", "check_fun":"int","maxlen":2,"flag":["promo", "arrow_5032","black_ground","1000g","sn"] },
+      "check_key":["oldprice"]
+    }
+  },
+
+  "HS_EL_5300": {
+    "DEMO": {
+      "led_config": "UPDATE",
+      "rc_page_id":"1",
+      "rc_config_mode":"RC_CONFIG_LED_OFF",
+      "pages": [
+        {"page_id":0, "mask":0, "scroll":2, "data":[
+          {"title":"NONE", "value":"11.1111", "area":"zn_number_big","format":"BigPrice"},
+          {"title":"NONE", "value":"11.11", "area":"zn_number_sml","format":"SmallPrice"},
+          {"title":"NONE", "value":"ABC", "area":"zn_alpha","format":"free"},
+          {"title":"NONE", "value":"1234", "area":"zn_mark_curren"},
+          {"title":"NONE", "value":"4", "area":"zn_mark_bar"},
+          {"title":"NONE", "value":"a", "area":"zn_mark_promo"},
+          {"title":"NONE", "value":"kg", "area":"zn_mark_unit","format":"unit"},
+          {"title":"NONE", "value":"a", "area":"zn_mark_arrow"},
+          {"title":"NONE", "value":"dxscl", "area":"zn_mark_state"}
+        ]},
+        {"page_id":1, "mask":0, "scroll":2, "data":[
+          {"title":"NONE","value":"22.22923","area":"zn_number_big","format":"BigPrice"},
+          {"title":"NONE", "value":"19%", "area":"zn_number_sml","format":"SmallPercent"},
+          {"title":"NONE", "value":"Gr1500.","area":"zn_alpha","format":"free"},
+          {"title":"NONE", "value":"13", "area":"zn_mark_curren"},
+          {"title":"NONE", "value":"r", "area":"zn_mark_promo"},
+          {"title":"NONE", "value":"g", "area":"zn_mark_unit","format":"unit"},
+          {"title":"NONE", "value":"u", "area":"zn_mark_arrow"},
+          {"title":"NONE", "value":"d", "area":"zn_mark_state"}
+        ]},
+        {"page_id":2, "mask":0, "scroll":2, "data":[
+          {"title":"NONE", "value":"33.33", "area":"zn_number_big","format":"BigPrice"},
+          {"title":"NONE", "value":"33.605646", "area":"zn_number_sml","format":"SmallPrice"},
+          {"title":"NONE", "value":"prprec.", "area":"zn_alpha","format":"free"},
+          {"title":"NONE", "value":"13", "area":"zn_mark_curren"},
+          {"title":"NONE", "value":"r", "area":"zn_mark_promo"},
+          {"title":"NONE", "value":"l", "area":"zn_mark_unit","format":"unit"},
+          {"title":"NONE", "value":"d", "area":"zn_mark_arrow"},
+          {"title":"NONE", "value":"x", "area":"zn_mark_state"}
+        ]},
+        {"page_id":3, "mask":0, "scroll":2, "data":[
+          {"title":"NONE", "value":"44.441654", "area":"zn_number_big","format":"BigPrice"},
+          {"title":"NONE", "value":"-20%", "area":"zn_number_sml","format":"SmallPercent"},
+          {"title":"NONE", "value":"SCNT0", "area":"zn_alpha","format":"alpha6"},
+          {"title":"NONE", "value":"3", "area":"zn_mark_curren"},
+          {"title":"NONE", "value":"r", "area":"zn_mark_promo"},
+          {"title":"NONE", "value":"un", "area":"zn_mark_unit","format":"unit"},
+          {"title":"NONE", "value":"d", "area":"zn_mark_arrow"},
+          {"title":"NONE", "value":"s", "area":"zn_mark_state"}
+        ]},
+        {"page_id":4, "mask":0, "scroll":2, "data":[
+          {"title":"NONE", "value":"55.55", "area":"zn_number_big","format":"BigPrice"},
+          {"title":"NONE", "value":" 30-12", "area":"zn_number_sml","format":"free"},
+          {"title":"NONE", "value":"alpha6", "area":"zn_alpha","format":"alpha6"},
+          {"title":"NONE", "value":"3", "area":"zn_mark_curren"},
+          {"title":"NONE", "value":"r", "area":"zn_mark_promo"},
+          {"title":"NONE", "value":"c", "area":"zn_mark_state"}
+        ]},
+        {"page_id":8, "mask":1, "scroll":0, "data":[]}
+      ]
+    },
+    "UNBIND": {
+      "led_config": "OFF",
+      "rc_page_id":"1",
+      "rc_config_mode":"RC_CONFIG_MODE_1",
+      "pages": [
+        {"page_id":0, "mask":0, "scroll":1, "data":[
+          {"title":"NONE", "value":"0FF", "area":"zn_alpha","format":"alpha6"}
+        ]}
+      ]
+    },
+    "_UNBIND": {
+      "led_config": "OFF",
+      "rc_page_id":"1",
+      "rc_config_mode":"RC_CONFIG_MODE_1",
+      "pages": [
+        {"page_id":0, "mask":0, "scroll":1, "data":[
+          {"title":"NONE", "value":"0FF", "area":"zn_alpha","format":"alpha6"}
+        ]}
+      ]
+    }
+  },
+  "seg_display_properties":{
+    "default_temp": {"promo":0, "originalPrice":3, "arrow_5032":5, "black_ground":7, "500g":8, "1000g": 9, "sn":15},
+    "HS_EL_5032_1": {"promo":0, "originalPrice":3, "arrow_5032":5, "black_ground":7, "500g":8, "1000g": 9, "sn":15},
+    "HS_EL_5033"  : {"promo":0, "originalPrice":3, "arrow_5032":5, "black_ground":7, "500g":8, "1000g": 9, "sn":15},
+    "HS_EL_5007_1": {"promo":0, "originalPrice":3, "currentPrice":4,"promo_reverse":7, "500g":8, "1000g": 9,"ST":14, "SN":15},
+    "HS_EL_5007_3": {"promo":0, "originalPrice":3, "currentPrice":4, "promo_reverse":7, "500g":8, "ge": 9,"ba":10, "he":11}
+  }
+}

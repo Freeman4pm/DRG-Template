@@ -1,0 +1,15 @@
+#parse("_res/templates/NORMAL_250122213-BLACK-WHITE-RED/GLOBAL_CODE_FILE.json")
+
+{
+	"default_page":"250122213-BLACK-WHITE-RED_0",
+	"pages":[
+		{
+			"id":0,
+			"name":"250122213-BLACK-WHITE-RED_0"
+		},
+		{
+			"id":1,
+			"name":"250122213-BLACK-WHITE-RED_1"
+		}
+	]
+}

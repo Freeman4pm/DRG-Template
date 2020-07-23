@@ -1,0 +1,67 @@
+{
+  "default_page_id": 0,
+  "pages": [
+    {"page_id":0, "default_color":"white", "data":[
+        {"title":"NONE", "value":"1", "area":"zn_background_color_big_number","format":"color"},
+        {"title":"NONE", "value":"120.99", "area":"zn_number_big","format":"bigPrice", "foreground_color":"white", "background_color":"black"},        
+        
+        {"title":"NONE", "value":"€", "area":"zn_mark_big_currency", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"0", "area":"zn_mark_battery", "foreground_color":"white", "background_color":"black"},        
+        
+        {"title":"NONE", "value":"p", "area":"zn_mark_promo", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"1", "area":"zn_background_color_promo","format":"color"},
+        
+        {"title":"NONE", "value":"125.99", "area":"zn_number_sml","format":"smallPrice"},
+        {"title":"NONE", "value":"181205", "area":"zn_alpha","format":"free"},
+        {"title":"NONE", "value":"€", "area":"zn_mark_small_currency"},        
+        {"title":"NONE", "value":"kg", "area":"zn_mark_unit","format":"unit"},
+                
+        {"title":"NONE", "value":"1", "area":"zn_background_color_marker_arrow","format":"color"},
+        {"title":"NONE", "value":"D", "area":"zn_mark_arrow", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"X", "area":"zn_marker", "foreground_color":"white", "background_color":"black"}]
+    }, 
+    {"page_id":1, "default_color":"white", "data":[
+        {"title":"NONE", "value":"120.99", "area":"zn_number_big","format":"bigPrice"},
+        {"title":"NONE", "value":"€", "area":"zn_mark_big_currency"},
+        {"title":"NONE", "value":"p", "area":"zn_mark_promo"},
+        
+        {"title":"NONE", "value":"1", "area":"zn_background_color_small_number","format":"color"},
+        {"title":"NONE", "value":"125.99", "area":"zn_number_sml","format":"smallPrice", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"181205", "area":"zn_alpha","format":"alpha6", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"€", "area":"zn_mark_small_currency", "foreground_color":"white", "background_color":"black"},        
+        {"title":"NONE", "value":"kg", "area":"zn_mark_unit","format":"unit", "foreground_color":"white", "background_color":"black"},                
+        
+        {"title":"NONE", "value":"D", "area":"zn_mark_arrow"},
+        {"title":"NONE", "value":"X", "area":"zn_marker"}]
+    },  
+    {"page_id":2, "default_color":"white", "data":[
+        {"title":"NONE", "value":"1", "area":"zn_background_color_big_number","format":"color"},
+        {"title":"NONE", "value":"120.99", "area":"zn_number_big","format":"bigPrice", "foreground_color":"white", "background_color":"black"},        
+        
+        {"title":"NONE", "value":"€", "area":"zn_mark_big_currency", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"0", "area":"zn_mark_battery", "foreground_color":"white", "background_color":"black"},        
+        
+        {"title":"NONE", "value":"p", "area":"zn_mark_promo", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"1", "area":"zn_background_color_promo","format":"color"},
+        
+        {"title":"NONE", "value":"1", "area":"zn_background_color_small_number","format":"color"},
+        {"title":"NONE", "value":"125.99", "area":"zn_number_sml","format":"smallPrice", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"181205", "area":"zn_alpha","format":"alpha6", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"€", "area":"zn_mark_small_currency", "foreground_color":"white", "background_color":"black"},        
+        {"title":"NONE", "value":"kg", "area":"zn_mark_unit","format":"unit", "foreground_color":"white", "background_color":"black"}, 
+                
+        {"title":"NONE", "value":"1", "area":"zn_background_color_marker_arrow","format":"color"},
+        {"title":"NONE", "value":"D", "area":"zn_mark_arrow", "foreground_color":"white", "background_color":"black"},
+        {"title":"NONE", "value":"X", "area":"zn_marker", "foreground_color":"white", "background_color":"black"}]
+    },  
+    {"page_id":3, "default_color":"white", "data":[
+        {"title":"NONE", "value":"120.99", "area":"zn_number_big","format":"bigPrice"},        
+        {"title":"NONE", "value":"€", "area":"zn_mark_big_currency"},
+        {"title":"NONE", "value":"125.99", "area":"zn_number_sml","format":"smallPrice"},
+        {"title":"NONE", "value":"181205", "area":"zn_alpha","format":"alpha6"},
+        {"title":"NONE", "value":"€", "area":"zn_mark_small_currency"},        
+        {"title":"NONE", "value":"kg", "area":"zn_mark_unit","format":"unit"}, 
+        {"title":"NONE", "value":"D", "area":"zn_mark_arrow"},
+        {"title":"NONE", "value":"X", "area":"zn_marker"}]
+    }]
+}
