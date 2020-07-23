@@ -801,7 +801,7 @@
 			"start_x":212,
 			"start_y":20,
 			"end_x":249,
-			"end_y":92,
+			"end_y":93,
 			"font_type":"JanBold 25",
 #else
 			"start_x":207,
