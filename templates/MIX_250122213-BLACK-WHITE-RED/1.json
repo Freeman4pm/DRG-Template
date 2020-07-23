@@ -717,7 +717,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>10)
+#if($price2>=10)
 			"start_x":145,
 			"start_y":1,
 			"end_x":210,
@@ -757,7 +757,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>10)
+#if($price2>=10)
 			"start_x":212,
 			"start_y":32,
 			"end_x":249,
@@ -797,7 +797,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>10)
+#if($price2>=10)
 			"start_x":212,
 			"start_y":20,
 			"end_x":249,
