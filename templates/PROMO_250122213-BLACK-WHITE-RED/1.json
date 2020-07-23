@@ -699,7 +699,7 @@
 			"start_x":145,
 			"start_y":1,
 			"end_x":210,
-			"end_y":105,
+			"end_y":95,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($price2_int == "")
@@ -756,7 +756,7 @@
 			"start_x":212,
 			"start_y":32,
 			"end_x":249,
-			"end_y":75,
+			"end_y":80,
 			"font_type":"JanBold 15",
 #else
 			"start_x":202,
@@ -778,7 +778,7 @@
 			"start_x":212,
 			"start_y":20,
 			"end_x":249,
-			"end_y":105,
+			"end_y":95,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
