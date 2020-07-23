@@ -392,7 +392,39 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-
+#if($price3 > 0)
+		{
+			"start_x":152,
+			"start_y":93,
+			"end_x":191,
+			"end_y":105,
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":"Prijs per",
+			"custom_content_value":"Prijs per",
+			"content_color":"WHITE",
+			"content_background_color":"BLACK",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"font_type":"UniversLTStd regular  7",
+			"auto_wrap":true,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		},
+#end
 
 		{
 			"start_x":192,
