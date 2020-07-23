@@ -698,7 +698,7 @@
 		{
 			"start_x":145,
 			"start_y":1,
-			"end_x":210,
+			"end_x":200,
 			"end_y":95,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -762,8 +762,8 @@
 			"start_x":202,
 			"start_y":33,
 			"end_x":249,
-			"end_y":60,
-			"font_type":"JanBold 18",
+			"end_y":75,
+			"font_type":"JanBold 17",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
@@ -775,7 +775,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":212,
+			"start_x":202,
 			"start_y":20,
 			"end_x":249,
 			"end_y":95,
