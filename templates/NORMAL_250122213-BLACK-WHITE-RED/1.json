@@ -316,8 +316,8 @@
 #if($price1>10)
 			"start_x":145,
 			"start_y":1,
-			"end_x":205,
-			"end_y":75,
+			"end_x":200,
+			"end_y":80,
 			"font_type":"JanBold 28",
 #else
 			"start_x":145,
@@ -397,7 +397,7 @@
 			"start_x":202,
 			"start_y":20,
 			"end_x":249,
-			"end_y":75,
+			"end_y":80,
 			"font_type":"JanBold 30",
 #else
 			"start_x":202,
