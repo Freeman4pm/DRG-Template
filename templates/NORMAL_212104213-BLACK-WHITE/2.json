@@ -87,9 +87,9 @@
 			"line_stroke":1,
 			"visible":true,
 #if($itemName.length()>20)
-			"font_type":"Impact regular  10",
+			"font_type":"Impact regular  8",
 #else
-			"font_type":"Impact regular  12",
+			"font_type":"Impact regular  10",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
