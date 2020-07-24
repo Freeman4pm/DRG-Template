@@ -291,7 +291,7 @@
 		{
 			"start_x":130,
 			"start_y":21,
-			"end_x":165,
+			"end_x":175,
 			"end_y":71,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -314,7 +314,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>=10)
-			"font_type":"JanBold 22",
+			"font_type":"JanBold 24",
 #else
 			"font_type":"JanBold 29",
 #end
@@ -346,7 +346,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>=10)
-			"start_x":169,
+			"start_x":179,
 			"start_y":24,
 			"end_x":204,
 			"end_y":72,
@@ -385,10 +385,10 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>=10)
-			"start_x":168,
+			"start_x":178,
 			"start_y":42,
 			"end_x":203,
-			"end_y":74,
+			"end_y":70,
 			"font_type":"JanBold 15",
 #else
 			"start_x":168,
