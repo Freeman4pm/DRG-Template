@@ -291,10 +291,7 @@
 #set($price1_int = $price1_s.substring(0, $price_len - 5))
 #set($price1_dec = $price1_s.substring($price_len - 4, $price_len - 2))
 		{
-			"start_x":130,
-			"start_y":21,
-			"end_x":175,
-			"end_y":71,
+
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($price1_int == "")
@@ -316,8 +313,16 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>=10)
+			"start_x":130,
+			"start_y":21,
+			"end_x":175,
+			"end_y":71,
 			"font_type":"JanBold 24",
 #else
+			"start_x":130,
+			"start_y":21,
+			"end_x":165,
+			"end_y":71,
 			"font_type":"JanBold 29",
 #end
 			"auto_wrap":false,
