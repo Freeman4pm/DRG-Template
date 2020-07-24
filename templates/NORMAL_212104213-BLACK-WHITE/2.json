@@ -252,7 +252,7 @@
                 },
 
  {
-                        "start_x":45,
+                        "start_x":55,
                         "start_y":81,
                         "end_x":100,
                         "end_y":100,
@@ -282,7 +282,7 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":60,
+                        "start_x":75,
                         "start_y":81,
                         "end_x":120,
                         "end_y":100,
