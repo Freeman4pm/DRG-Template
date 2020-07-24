@@ -210,7 +210,7 @@
                         "rotate":0,
                         "line_stroke":1,
                         "visible":true,
-                        "font_type":"UniversLTStd regular  5",
+                        "font_type":"UniversLTStd regular  6",
                         "auto_wrap":true,
                         "auto_scale":false,
                         "auto_scale_width":false,
@@ -221,7 +221,7 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":15,
+                        "start_x":25,
                         "start_y":81,
                         "end_x":100,
                         "end_y":100,
@@ -240,7 +240,7 @@
                         "rotate":0,
                         "line_stroke":1,
                         "visible":true,
-                        "font_type":"UniversLTStd regular  5",
+                        "font_type":"UniversLTStd regular  6",
                         "auto_wrap":true,
                         "auto_scale":false,
                         "auto_scale_width":false,
@@ -252,7 +252,7 @@
                 },
 
  {
-                        "start_x":30,
+                        "start_x":45,
                         "start_y":81,
                         "end_x":100,
                         "end_y":100,
@@ -271,7 +271,7 @@
                         "rotate":0,
                         "line_stroke":1,
                         "visible":true,
-                        "font_type":"UniversLTStd regular  5",
+                        "font_type":"UniversLTStd regular  6",
                         "auto_wrap":true,
                         "auto_scale":false,
                         "auto_scale_width":false,
@@ -282,7 +282,7 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":50,
+                        "start_x":60,
                         "start_y":81,
                         "end_x":120,
                         "end_y":100,
@@ -301,7 +301,7 @@
                         "rotate":0,
                         "line_stroke":1,
                         "visible":true,
-                        "font_type":"UniversLTStd regular  5",
+                        "font_type":"UniversLTStd regular  6",
                         "auto_wrap":true,
                         "auto_scale":false,
                         "auto_scale_width":false,
