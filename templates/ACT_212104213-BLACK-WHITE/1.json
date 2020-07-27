@@ -62,7 +62,11 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($itemName.length()>20)
+			"font_type":"Impact regular  8",
+#else
 			"font_type":"Impact regular  10",
+#end
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -162,6 +166,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#if($itemStatus == "Y")
 		{
 			"start_x":0,
 			"start_y":72,
@@ -193,6 +198,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":0,
 			"start_y":57,
@@ -255,14 +261,19 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#set($price2_s = $util.toString($price2))
+#set($price_len = $util.strlen($price2_s))
+#set($price2_int = $price2_s.substring(0, $price_len - 5))
+#set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
 		{
-			"start_x":130,
-			"start_y":21,
-			"end_x":165,
-			"end_y":71,
+
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
+#if($price2_int == "")
 			"content_value":"0",
+#else
+			"content_value":"$price2_int",
+#end
 			"custom_content_value":"0",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
@@ -276,8 +287,20 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price2>=10)
+			"start_x":130,
+			"start_y":21,
+			"end_x":165,
+			"end_y":71,
+			"font_type":"JanBold regular  23",
+#else
+			"start_x":130,
+			"start_y":21,
+			"end_x":165,
+			"end_y":71,
 			"font_type":"JanBold regular  26",
-			"auto_wrap":true,
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -287,10 +310,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":169,
-			"start_y":24,
-			"end_x":204,
-			"end_y":72,
+
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
@@ -307,8 +327,20 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price2>=10)
+			"start_x":169,
+			"start_y":24,
+			"end_x":204,
+			"end_y":72,
+			"font_type":"JanBold regular  24",
+#else
+			"start_x":169,
+			"start_y":24,
+			"end_x":204,
+			"end_y":72,
 			"font_type":"JanBold regular  28",
-			"auto_wrap":true,
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -318,13 +350,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":168,
-			"start_y":35,
-			"end_x":203,
-			"end_y":67,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"99",
+			"content_value":"$price2_dec",
 			"custom_content_value":"99",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
@@ -338,8 +366,20 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold regular  16",
-			"auto_wrap":true,
+#if($price2>=10)
+			"start_x":168,
+			"start_y":35,
+			"end_x":203,
+			"end_y":67,
+			"font_type":"JanBold 16",
+#else
+			"start_x":168,
+			"start_y":35,
+			"end_x":203,
+			"end_y":67,
+			"font_type":"JanBold 16",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -348,6 +388,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+		
 		{
 			"start_x":131,
 			"start_y":79,
