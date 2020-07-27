@@ -314,9 +314,9 @@
 #if($price2>=10)
 			"start_x":137,
 			"start_y":31,
-			"end_x":175,
-			"end_y":85,
-			"font_type":"JanBold regular  18",
+			"end_x":177,
+			"end_y":83,
+			"font_type":"JanBold regular  19",
 #else
 			"start_x":136,
 			"start_y":41,
@@ -352,10 +352,10 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price2>=10)
-			"start_x":176,
+			"start_x":178,
 			"start_y":31,
 			"end_x":207,
-			"end_y":85,
+			"end_y":83,
 			"font_type":"JanBold regular  22",
 #else
 			"start_x":172,
@@ -391,11 +391,11 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price2>=10)
-			"start_x":176,
-			"start_y":57,
+			"start_x":178,
+			"start_y":59,
 			"end_x":210,
-			"end_y":90,
-			"font_type":"JanBold 12",
+			"end_y":92,
+			"font_type":"JanBold 11",
 #else
 			"start_x":175,
 			"start_y":58,
