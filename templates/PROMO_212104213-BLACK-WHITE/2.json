@@ -377,9 +377,9 @@
 		},
 		{
 			"start_x":67,
-			"start_y":74,
+			"start_y":73,
 			"end_x":97,
-			"end_y":85,
+			"end_y":84,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"description",
 			"content_value":"Text",
