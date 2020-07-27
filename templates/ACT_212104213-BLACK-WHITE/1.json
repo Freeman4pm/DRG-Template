@@ -368,10 +368,10 @@
 			"visible":true,
 #if($price2>=10)
 			"start_x":168,
-			"start_y":35,
+			"start_y":38,
 			"end_x":203,
-			"end_y":67,
-			"font_type":"JanBold 16",
+			"end_y":70,
+			"font_type":"JanBold 14",
 #else
 			"start_x":168,
 			"start_y":35,
