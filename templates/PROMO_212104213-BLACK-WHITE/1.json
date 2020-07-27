@@ -86,7 +86,11 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($itemName.length()>20)
+			"font_type":"Impact regular  8",
+#else
 			"font_type":"Impact regular  10",
+#end
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -186,6 +190,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#if($itemStatus == "Y")
 		{
 			"start_x":0,
 			"start_y":74,
@@ -217,6 +222,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":0,
 			"start_y":57,
