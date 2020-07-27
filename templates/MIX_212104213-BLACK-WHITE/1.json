@@ -823,10 +823,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":115,
-			"start_y":38,
-			"end_x":138,
-			"end_y":54,
+			"start_x":116,
+			"start_y":39,
+			"end_x":139,
+			"end_y":55,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"PICK",
@@ -886,9 +886,9 @@
 		},
 		{
 			"start_x":123,
-			"start_y":48,
+			"start_y":47,
 			"end_x":141,
-			"end_y":63,
+			"end_y":64,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"&",
