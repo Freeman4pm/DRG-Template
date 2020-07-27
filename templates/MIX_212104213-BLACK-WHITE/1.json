@@ -823,10 +823,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":123,
-			"start_y":36,
-			"end_x":144,
-			"end_y":52,
+			"start_x":115,
+			"start_y":38,
+			"end_x":138,
+			"end_y":54,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"PICK",
@@ -854,9 +854,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":114,
+			"start_x":117,
 			"start_y":64,
-			"end_x":141,
+			"end_x":144,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -888,7 +888,7 @@
 			"start_x":123,
 			"start_y":48,
 			"end_x":141,
-			"end_y":64,
+			"end_y":63,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"&",
