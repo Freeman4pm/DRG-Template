@@ -318,9 +318,9 @@
 			"end_y":91,
 			"font_type":"JanBold regular  20",
 #else
-			"start_x":137,
+			"start_x":136,
 			"start_y":41,
-			"end_x":172,
+			"end_x":171,
 			"end_y":91,
 			"font_type":"JanBold regular  24",
 #end
@@ -712,9 +712,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":171,
+			"start_x":173,
 			"start_y":2,
-			"end_x":206,
+			"end_x":211,
 			"end_y":16,
 			"content_type":"CONTENT_TYPE_NUMBER",
 			"content_title":"price1",
