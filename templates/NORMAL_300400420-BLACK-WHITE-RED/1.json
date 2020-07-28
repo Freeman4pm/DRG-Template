@@ -346,7 +346,7 @@
 		
 		{
 			"start_x":292,
-			"start_y":257,
+			"start_y":262,
 			"end_x":399,
 			"end_y":286,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -378,7 +378,7 @@
 #if($price3 > 0)
 		{
 			"start_x":220,
-			"start_y":257,
+			"start_y":262,
 			"end_x":320,
 			"end_y":286,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -411,7 +411,7 @@
 #if($price3 > 0)
 		{
 			"start_x":298,
-			"start_y":275,
+			"start_y":280,
 			"end_x":321,
 			"end_y":299,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -443,7 +443,7 @@
 #end
 		{
 			"start_x":320,
-			"start_y":274,
+			"start_y":280,
 			"end_x":399,
 			"end_y":299,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -492,6 +492,28 @@
 		}
 #if($saleMode != '1211' && $saleMode != '1212' && $saleMode != '1215')
 ,
+#if($saleMode == '1213' || $saleMode == '1214')
+		{
+			"start_x":286,
+			"start_y":14,
+			"end_x":386,
+			"end_y":94,
+			"content_type":"CONTENT_TYPE_ABORDER",
+			"content_title":"NONE",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":true,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true
+		},
+#end
 		{
 			"start_x":296,
 			"start_y":19,
@@ -516,28 +538,7 @@
 			"line_stroke":1,
 			"visible":true
 		},
-#if($saleMode == '1213' || $saleMode == '1214')
-		{
-			"start_x":286,
-			"start_y":14,
-			"end_x":386,
-			"end_y":94,
-			"content_type":"CONTENT_TYPE_ABORDER",
-			"content_title":"NONE",
-			"content_color":"BLACK",
-			"content_background_color":"WHITE",
-			"content_reverse":true,
-			"content_alignment":"left",
-			"content_vertical_alignment":"top",
-			"background_transparent":false,
-			"border":true,
-			"corner_width":0,
-			"corner_height":0,
-			"rotate":0,
-			"line_stroke":1,
-			"visible":true
-		},
-#end
+
 #if($saleMode == '1213' || $saleMode == '1214')
 		{
 			"start_x":294,
