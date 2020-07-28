@@ -388,7 +388,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-		
+#if($price3 > 0)	
 		{
 			"start_x":131,
 			"start_y":79,
@@ -420,6 +420,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":167,
 			"start_y":79,
@@ -500,6 +501,7 @@
 			"text_decoration_script":"none",
 			"fraction_digits":2
 		},
+#if($price3 > 0)
 		{
 			"start_x":160,
 			"start_y":90,
@@ -531,6 +533,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":7,
 			"start_y":2,
