@@ -231,7 +231,7 @@
 
 		{
 			"start_x":209,
-			"start_y":182,
+			"start_y":170,
 			"end_x":294,
 			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -257,7 +257,7 @@
 #if($price1>=10)
 			"font_type":"JanBold regular  50",
 #else
-			"font_type":"JanBold regular  60",
+			"font_type":"JanBold regular  65",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
@@ -294,10 +294,10 @@
 			"font_type":"JanBold 31",
 #else
 			"start_x":295,
-			"start_y":180,
+			"start_y":170,
 			"end_x":380,
-			"end_y":235,
-			"font_type":"JanBold 37",
+			"end_y":230,
+			"font_type":"JanBold 40",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
@@ -310,7 +310,7 @@
 		},
 		{
 			"start_x":294,
-			"start_y":182,
+			"start_y":170,
 			"end_x":379,
 			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -332,7 +332,7 @@
 #if($price1>=10)
 			"font_type":"JanBold regular  52",
 #else
-			"font_type":"JanBold regular  60",
+			"font_type":"JanBold regular  65",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
