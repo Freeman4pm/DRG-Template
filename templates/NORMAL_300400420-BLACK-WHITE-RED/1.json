@@ -101,7 +101,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#if($saleMode != 1213 && $saleMode != 1214)
+#if($saleMode != '1213' && $saleMode != '1214')
 		{
 			"start_x":2,
 			"start_y":264,
@@ -130,6 +130,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#end
 		{
 			"start_x":4,
 			"start_y":226,
@@ -509,7 +510,7 @@
 			"line_stroke":1,
 			"visible":true
 		},
-#if($saleMode == 1213 || $saleMode == 1214)
+#if($saleMode == '1213' || $saleMode == '1214')
 		{
 			"start_x":294,
 			"start_y":93,
@@ -538,6 +539,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#end
 		{
 			"start_x":304,
 			"start_y":24,
