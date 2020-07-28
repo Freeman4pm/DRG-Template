@@ -255,10 +255,10 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":25,
+                        "start_x":30,
                         "start_y":150,
                         "end_x":100,
-                        "end_y":170,
+                        "end_y":200,
                         "content_type":"CONTENT_TYPE_TEXT",
                         "content_title":"level2CategoryName",
                         "content_value":"00000",
@@ -286,9 +286,9 @@
                 },
 
  {
-                        "start_x":60,
+                        "start_x":80,
                         "start_y":150,
-                        "end_x":100,
+                        "end_x":150,
                         "end_y":170,
                         "content_type":"CONTENT_TYPE_TEXT",
                         "content_title":"level3CategoryName",
@@ -316,9 +316,9 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":85,
+                        "start_x":100,
                         "start_y":150,
-                        "end_x":120,
+                        "end_x":150,
                         "end_y":170,
                         "content_type":"CONTENT_TYPE_TEXT",
                         "content_title":"level4CategoryName",
