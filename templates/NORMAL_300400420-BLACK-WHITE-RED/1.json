@@ -518,10 +518,32 @@
 		},
 #if($saleMode == '1213' || $saleMode == '1214')
 		{
+			"start_x":286,
+			"start_y":14,
+			"end_x":386,
+			"end_y":94,
+			"content_type":"CONTENT_TYPE_ABORDER",
+			"content_title":"NONE",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":true,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true
+		},
+#end
+#if($saleMode == '1213' || $saleMode == '1214')
+		{
 			"start_x":294,
-			"start_y":93,
+			"start_y":98,
 			"end_x":378,
-			"end_y":137,
+			"end_y":140,
 			"content_type":"CONTENT_TYPE_BARCODE",
 			"content_title":"sku",
 			"content_value":"barcode",
