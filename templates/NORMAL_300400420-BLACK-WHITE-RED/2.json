@@ -255,7 +255,7 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":30,
+                        "start_x":35,
                         "start_y":150,
                         "end_x":100,
                         "end_y":200,
@@ -286,7 +286,7 @@
                 },
 
  {
-                        "start_x":80,
+                        "start_x":100,
                         "start_y":150,
                         "end_x":150,
                         "end_y":170,
@@ -316,9 +316,9 @@
                         "text_decoration":"none"
                 },
  {
-                        "start_x":100,
+                        "start_x":140,
                         "start_y":150,
-                        "end_x":150,
+                        "end_x":180,
                         "end_y":170,
                         "content_type":"CONTENT_TYPE_TEXT",
                         "content_title":"level4CategoryName",
