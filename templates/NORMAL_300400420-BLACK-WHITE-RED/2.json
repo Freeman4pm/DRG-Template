@@ -615,10 +615,10 @@
 ,
 #if($saleMode == '1213' || $saleMode == '1214')
 		{
-			"start_x":280,
+			"start_x":286,
 			"start_y":14,
-			"end_x":375,
-			"end_y":100,
+			"end_x":386,
+			"end_y":94,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
 			"content_color":"BLACK",
