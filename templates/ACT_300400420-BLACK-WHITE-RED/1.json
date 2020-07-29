@@ -202,20 +202,29 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#set($price2_s = $util.toString($price2))
+#set($price_len = $util.strlen($price2_s))
+#set($price2_int = $price2_s.substring(0, $price_len - 5))
+#set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
+
 		{
 			"start_x":209,
-			"start_y":166,
+			"start_y":170,
 			"end_x":294,
-			"end_y":259,
+			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
+#if($price1_int == "")
 			"content_value":"0",
-			"custom_content_value":"0",
+#else
+			"content_value":"$price2_int",
+#end
+			"custom_content_value":"1",
 			"content_color":"WHITE",
-			"content_background_color":"BLACK",
+			"content_background_color":"RED",
 			"content_reverse":false,
 			"content_alignment":"right",
-			"content_vertical_alignment":"middle",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -223,8 +232,52 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price2>=10)
 			"font_type":"JanBold regular  50",
-			"auto_wrap":true,
+#else
+			"font_type":"JanBold regular  60",
+#end
+			"auto_wrap":false,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		},	
+		{
+			
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":"$price2_dec",
+			"custom_content_value":"1",
+			"content_color":"WHITE",
+			"content_background_color":"RED",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"bottom",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+#if($price2>=10)
+			"start_x":295,
+			"start_y":180,
+			"end_x":380,
+			"end_y":235,
+			"font_type":"JanBold 31",
+#else
+			"start_x":295,
+			"start_y":170,
+			"end_x":380,
+			"end_y":225,
+			"font_type":"JanBold 35",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -235,18 +288,18 @@
 		},
 		{
 			"start_x":294,
-			"start_y":162,
+			"start_y":170,
 			"end_x":379,
 			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
-			"custom_content_value":".",
+			"custom_content_value":"1",
 			"content_color":"WHITE",
-			"content_background_color":"BLACK",
+			"content_background_color":"RED",
 			"content_reverse":false,
 			"content_alignment":"left",
-			"content_vertical_alignment":"middle",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -254,39 +307,12 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price2>=10)
+			"font_type":"JanBold regular  52",
+#else
 			"font_type":"JanBold regular  60",
-			"auto_wrap":true,
-			"auto_scale":false,
-			"auto_scale_width":false,
-			"auto_narrow_width":false,
-			"auto_stretch_height":false,
-			"split_by_space":false,
-			"line_spacing":5,
-			"text_decoration":"none"
-		},
-		{
-			"start_x":295,
-			"start_y":181,
-			"end_x":380,
-			"end_y":244,
-			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
-			"content_value":"99",
-			"custom_content_value":"99",
-			"content_color":"WHITE",
-			"content_background_color":"BLACK",
-			"content_reverse":false,
-			"content_alignment":"left",
-			"content_vertical_alignment":"top",
-			"background_transparent":true,
-			"border":false,
-			"corner_width":0,
-			"corner_height":0,
-			"rotate":0,
-			"line_stroke":1,
-			"visible":true,
-			"font_type":"JanBold regular  29",
-			"auto_wrap":true,
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -326,6 +352,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($price3 > 0)
 		{
 			"start_x":220,
 			"start_y":258,
@@ -388,6 +415,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":320,
 			"start_y":275,
