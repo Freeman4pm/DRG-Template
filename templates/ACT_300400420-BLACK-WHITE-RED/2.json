@@ -81,6 +81,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($saleMode != '1213' && $saleMode != '1214')
 		{
 			"start_x":2,
 			"start_y":264,
@@ -109,6 +110,8 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#end
+#if($itemStatus == 'Y')
 		{
 			"start_x":4,
 			"start_y":226,
@@ -140,6 +143,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":4,
 			"start_y":193,
@@ -202,20 +206,150 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+{
+                        "start_x":3,
+                        "start_y":150,
+                        "end_x":100,
+                        "end_y":170,
+                        "content_type":"CONTENT_TYPE_TEXT",
+                        "content_title":"level1CategoryName",
+                        "content_value":"00000",
+			"content_color":"BLACK",
+                        "content_background_color":"WHITE",
+                        "content_reverse":false,
+                        "content_alignment":"left",
+                        "content_vertical_alignment":"top",
+                        "background_transparent":true,
+                        "border":false,
+                        "corner_width":0,
+                        "corner_height":0,
+                        "rotate":0,
+                        "line_stroke":1,
+                        "visible":true,
+                        "font_type":"UniversLTStd regular  8",
+                        "auto_wrap":true,
+                        "auto_scale":false,
+                        "auto_scale_width":false,
+                        "auto_narrow_width":false,
+                        "auto_stretch_height":false,
+                        "split_by_space":false,
+                        "line_spacing":5,
+                        "text_decoration":"none"
+                },
+ {
+                        "start_x":35,
+                        "start_y":150,
+                        "end_x":100,
+                        "end_y":200,
+                        "content_type":"CONTENT_TYPE_TEXT",
+                        "content_title":"level2CategoryName",
+                        "content_value":"00000",
+                        "content_color":"BLACK",
+                        "content_background_color":"WHITE",
+                        "content_reverse":false,
+                        "content_alignment":"left",
+                        "content_vertical_alignment":"top",
+                        "background_transparent":true,
+                        "border":false,
+                        "corner_width":0,
+                        "corner_height":0,
+                        "rotate":0,
+                        "line_stroke":1,
+                        "visible":true,
+                        "font_type":"UniversLTStd regular  8",
+                        "auto_wrap":true,
+                        "auto_scale":false,
+                        "auto_scale_width":false,
+                        "auto_narrow_width":false,
+                        "auto_stretch_height":false,
+                        "split_by_space":false,
+                        "line_spacing":5,
+                        "text_decoration":"none"
+                },
+
+ {
+                        "start_x":100,
+                        "start_y":150,
+                        "end_x":150,
+                        "end_y":170,
+                        "content_type":"CONTENT_TYPE_TEXT",
+                        "content_title":"level3CategoryName",
+                        "content_value":"00000",
+                        "content_color":"BLACK",
+                        "content_background_color":"WHITE",
+                        "content_reverse":false,
+                        "content_alignment":"left",
+                        "content_vertical_alignment":"top",
+                        "background_transparent":true,
+                        "border":false,
+                        "corner_width":0,
+                        "corner_height":0,
+                        "rotate":0,
+                        "line_stroke":1,
+                        "visible":true,
+                        "font_type":"UniversLTStd regular  8",
+                        "auto_wrap":true,
+                        "auto_scale":false,
+                        "auto_scale_width":false,
+                        "auto_narrow_width":false,
+                        "auto_stretch_height":false,
+                        "split_by_space":false,
+                        "line_spacing":5,
+                        "text_decoration":"none"
+                },
+ {
+                        "start_x":140,
+                        "start_y":150,
+                        "end_x":180,
+                        "end_y":170,
+                        "content_type":"CONTENT_TYPE_TEXT",
+                        "content_title":"level4CategoryName",
+                        "content_value":"00000",
+                        "content_color":"BLACK",
+                        "content_background_color":"WHITE",
+                        "content_reverse":false,
+                        "content_alignment":"left",
+                        "content_vertical_alignment":"top",
+                        "background_transparent":true,
+                        "border":false,
+                        "corner_width":0,
+                        "corner_height":0,
+                        "rotate":0,
+                        "line_stroke":1,
+                        "visible":true,
+                        "font_type":"UniversLTStd regular  8",
+                        "auto_wrap":true,
+                        "auto_scale":false,
+                        "auto_scale_width":false,
+                        "auto_narrow_width":false,
+                        "auto_stretch_height":false,
+                        "split_by_space":false,
+                        "line_spacing":5,
+                        "text_decoration":"none"
+                },
+#set($price2_s = $util.toString($price2))
+#set($price_len = $util.strlen($price2_s))
+#set($price2_int = $price2_s.substring(0, $price_len - 5))
+#set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
+
 		{
 			"start_x":209,
-			"start_y":166,
+			"start_y":170,
 			"end_x":294,
-			"end_y":259,
+			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
+#if($price1_int == "")
 			"content_value":"0",
-			"custom_content_value":"0",
+#else
+			"content_value":"$price2_int",
+#end
+			"custom_content_value":"1",
 			"content_color":"WHITE",
-			"content_background_color":"BLACK",
+			"content_background_color":"RED",
 			"content_reverse":false,
 			"content_alignment":"right",
-			"content_vertical_alignment":"middle",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -223,8 +357,52 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price2>=10)
 			"font_type":"JanBold regular  50",
-			"auto_wrap":true,
+#else
+			"font_type":"JanBold regular  60",
+#end
+			"auto_wrap":false,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		},	
+		{
+			
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":"$price2_dec",
+			"custom_content_value":"1",
+			"content_color":"WHITE",
+			"content_background_color":"RED",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"bottom",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+#if($price2>=10)
+			"start_x":295,
+			"start_y":180,
+			"end_x":380,
+			"end_y":235,
+			"font_type":"JanBold 31",
+#else
+			"start_x":295,
+			"start_y":170,
+			"end_x":380,
+			"end_y":225,
+			"font_type":"JanBold 35",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -235,18 +413,18 @@
 		},
 		{
 			"start_x":294,
-			"start_y":162,
+			"start_y":170,
 			"end_x":379,
 			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
-			"custom_content_value":".",
+			"custom_content_value":"1",
 			"content_color":"WHITE",
-			"content_background_color":"BLACK",
+			"content_background_color":"RED",
 			"content_reverse":false,
 			"content_alignment":"left",
-			"content_vertical_alignment":"middle",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -254,39 +432,12 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
+#if($price2>=10)
+			"font_type":"JanBold regular  50",
+#else
 			"font_type":"JanBold regular  60",
-			"auto_wrap":true,
-			"auto_scale":false,
-			"auto_scale_width":false,
-			"auto_narrow_width":false,
-			"auto_stretch_height":false,
-			"split_by_space":false,
-			"line_spacing":5,
-			"text_decoration":"none"
-		},
-		{
-			"start_x":295,
-			"start_y":181,
-			"end_x":380,
-			"end_y":244,
-			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
-			"content_value":"99",
-			"custom_content_value":"99",
-			"content_color":"WHITE",
-			"content_background_color":"BLACK",
-			"content_reverse":false,
-			"content_alignment":"left",
-			"content_vertical_alignment":"top",
-			"background_transparent":true,
-			"border":false,
-			"corner_width":0,
-			"corner_height":0,
-			"rotate":0,
-			"line_stroke":1,
-			"visible":true,
-			"font_type":"JanBold regular  29",
-			"auto_wrap":true,
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -297,7 +448,7 @@
 		},
 		{
 			"start_x":292,
-			"start_y":258,
+			"start_y":259,
 			"end_x":399,
 			"end_y":283,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -326,9 +477,10 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($price3 > 0)
 		{
 			"start_x":220,
-			"start_y":258,
+			"start_y":259,
 			"end_x":320,
 			"end_y":283,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -359,7 +511,7 @@
 		},
 		{
 			"start_x":298,
-			"start_y":276,
+			"start_y":277,
 			"end_x":321,
 			"end_y":297,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -388,9 +540,10 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":320,
-			"start_y":275,
+			"start_y":277,
 			"end_x":399,
 			"end_y":297,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -437,6 +590,29 @@
 			"text_decoration_script":"none",
 			"fraction_digits":2
 		},
+#if($saleMode != '1211' && $saleMode != '1212' && $saleMode != '1215')
+#if($saleMode == '1213' || $saleMode == '1214')
+		{
+			"start_x":275,
+			"start_y":37,
+			"end_x":375,
+			"end_y":132,
+			"content_type":"CONTENT_TYPE_ABORDER",
+			"content_title":"NONE",
+			"content_color":"BLACK",
+			"content_background_color":"RED",
+			"content_reverse":true,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true
+		},
+#end
 		{
 			"start_x":284,
 			"start_y":50,
@@ -444,8 +620,13 @@
 			"end_y":120,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
+#if($saleMode == '1213' || $saleMode == '1214')
+			"content_color":"WHITE",
+			"content_background_color":"BLACK",
+#else
 			"content_color":"BLACK",
 			"content_background_color":"RED",
+#end
 			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
@@ -457,11 +638,12 @@
 			"line_stroke":1,
 			"visible":true
 		},
+#if($saleMode == '1213' || $saleMode == '1214')
 		{
 			"start_x":282,
-			"start_y":129,
+			"start_y":134,
 			"end_x":366,
-			"end_y":156,
+			"end_y":160,
 			"content_type":"CONTENT_TYPE_BARCODE",
 			"content_title":"sku",
 			"content_value":"barcode",
@@ -485,6 +667,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#end
 		{
 			"start_x":292,
 			"start_y":56,
@@ -496,7 +679,11 @@
 			"custom_content_value":"ZELF",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"center",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -527,7 +714,11 @@
 			"custom_content_value":"SCANNEN",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"center",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -554,7 +745,11 @@
 			"end_y":130,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_color":"RED",
+#else
+			"content_color":"BLACK",
+#end
 			"content_background_color":"WHITE",
 			"content_reverse":false,
 			"content_alignment":"left",
@@ -576,7 +771,11 @@
 			"end_y":104,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_color":"RED",
+#else
+			"content_color":"BLACK",
+#end
 			"content_background_color":"WHITE",
 			"content_reverse":false,
 			"content_alignment":"left",
@@ -598,7 +797,11 @@
 			"end_y":104,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_color":"RED",
+#else
+			"content_color":"BLACK",
+#end
 			"content_background_color":"WHITE",
 			"content_reverse":false,
 			"content_alignment":"left",
@@ -620,7 +823,11 @@
 			"end_y":64,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_color":"RED",
+#else
+			"content_color":"BLACK",
+#end
 			"content_background_color":"WHITE",
 			"content_reverse":false,
 			"content_alignment":"left",
@@ -635,8 +842,9 @@
 			"line_thickness":1,
 			"diagonal_type":"HORIZONTAL"
 		},
+#end
 		{
-			"start_x":0,
+			"start_x":4,
 			"start_y":0,
 			"end_x":184,
 			"end_y":40,
@@ -656,7 +864,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  22",
+			"font_type":"Impact regular  24",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -672,7 +880,7 @@
 			"end_x":295,
 			"end_y":31,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"price1Description",
+			"content_title":"NONE",
 			"content_value":"3",
 			"custom_content_value":"3",
 			"content_color":"WHITE",
