@@ -308,7 +308,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price2>=10)
-			"font_type":"JanBold regular  52",
+			"font_type":"JanBold regular  50",
 #else
 			"font_type":"JanBold regular  60",
 #end
