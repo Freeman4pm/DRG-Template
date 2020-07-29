@@ -323,7 +323,7 @@
 		},
 		{
 			"start_x":292,
-			"start_y":258,
+			"start_y":259,
 			"end_x":399,
 			"end_y":283,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -355,7 +355,7 @@
 #if($price3 > 0)
 		{
 			"start_x":220,
-			"start_y":258,
+			"start_y":259,
 			"end_x":320,
 			"end_y":283,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -386,7 +386,7 @@
 		},
 		{
 			"start_x":298,
-			"start_y":276,
+			"start_y":277,
 			"end_x":321,
 			"end_y":297,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -418,7 +418,7 @@
 #end
 		{
 			"start_x":320,
-			"start_y":275,
+			"start_y":277,
 			"end_x":399,
 			"end_y":297,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -700,7 +700,7 @@
 			"end_x":295,
 			"end_y":31,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"price1Description",
+			"content_title":"NONE",
 			"content_value":"3",
 			"custom_content_value":"3",
 			"content_color":"WHITE",
