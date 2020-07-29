@@ -470,14 +470,14 @@
 #if($saleMode != '1211' && $saleMode != '1212' && $saleMode != '1215')
 #if($saleMode == '1213' || $saleMode == '1214')
 		{
-			"start_x":286,
+			"start_x":280,
 			"start_y":37,
 			"end_x":386,
-			"end_y":120,
+			"end_y":125,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
 			"content_color":"BLACK",
-			"content_background_color":"WHITE",
+			"content_background_color":"RED",
 			"content_reverse":true,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
@@ -497,8 +497,13 @@
 			"end_y":120,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
+#if($saleMode == '1213' || $saleMode == '1214')
+			"content_color":"WHITE",
+			"content_background_color":"BLACK",
+#else
 			"content_color":"BLACK",
 			"content_background_color":"RED",
+#end
 			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
