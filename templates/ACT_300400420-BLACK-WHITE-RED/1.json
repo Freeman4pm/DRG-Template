@@ -467,6 +467,29 @@
 			"text_decoration_script":"none",
 			"fraction_digits":2
 		},
+#if($saleMode != '1211' && $saleMode != '1212' && $saleMode != '1215')
+#if($saleMode == '1213' || $saleMode == '1214')
+		{
+			"start_x":286,
+			"start_y":37,
+			"end_x":386,
+			"end_y":120,
+			"content_type":"CONTENT_TYPE_ABORDER",
+			"content_title":"NONE",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":true,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true
+		},
+#end
 		{
 			"start_x":284,
 			"start_y":50,
@@ -487,11 +510,12 @@
 			"line_stroke":1,
 			"visible":true
 		},
+#if($saleMode == '1213' || $saleMode == '1214')
 		{
 			"start_x":282,
-			"start_y":129,
+			"start_y":134,
 			"end_x":366,
-			"end_y":156,
+			"end_y":160,
 			"content_type":"CONTENT_TYPE_BARCODE",
 			"content_title":"sku",
 			"content_value":"barcode",
@@ -515,6 +539,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#end
 		{
 			"start_x":292,
 			"start_y":56,
@@ -526,7 +551,11 @@
 			"custom_content_value":"ZELF",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"center",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -557,7 +586,11 @@
 			"custom_content_value":"SCANNEN",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"center",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -586,7 +619,11 @@
 			"content_title":"NONE",
 			"content_color":"RED",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -608,7 +645,11 @@
 			"content_title":"NONE",
 			"content_color":"RED",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -630,7 +671,11 @@
 			"content_title":"NONE",
 			"content_color":"RED",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -652,7 +697,11 @@
 			"content_title":"NONE",
 			"content_color":"RED",
 			"content_background_color":"WHITE",
+#if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 			"content_reverse":false,
+#else
+			"content_reverse":true,
+#end
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -665,6 +714,7 @@
 			"line_thickness":1,
 			"diagonal_type":"HORIZONTAL"
 		},
+#end
 		{
 			"start_x":4,
 			"start_y":0,
