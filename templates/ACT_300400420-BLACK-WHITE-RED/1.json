@@ -81,6 +81,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($saleMode != '1213' && $saleMode != '1214')
 		{
 			"start_x":2,
 			"start_y":264,
@@ -109,6 +110,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#end
 #if($itemStatus == 'Y')
 		{
 			"start_x":4,
@@ -622,13 +624,13 @@
 			"end_y":130,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
-			"content_color":"RED",
-			"content_background_color":"WHITE",
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
-			"content_reverse":false,
+			"content_color":"RED",
 #else
-			"content_reverse":true,
+			"content_color":"BLACK",
 #end
+			"content_background_color":"WHITE",
+			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -648,13 +650,13 @@
 			"end_y":104,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
-			"content_color":"RED",
-			"content_background_color":"WHITE",
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
-			"content_reverse":false,
+			"content_color":"RED",
 #else
-			"content_reverse":true,
+			"content_color":"BLACK",
 #end
+			"content_background_color":"WHITE",
+			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -674,13 +676,13 @@
 			"end_y":104,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
-			"content_color":"RED",
-			"content_background_color":"WHITE",
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
-			"content_reverse":false,
+			"content_color":"RED",
 #else
-			"content_reverse":true,
+			"content_color":"BLACK",
 #end
+			"content_background_color":"WHITE",
+			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -700,13 +702,13 @@
 			"end_y":64,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
-			"content_color":"RED",
-			"content_background_color":"WHITE",
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
-			"content_reverse":false,
+			"content_color":"RED",
 #else
-			"content_reverse":true,
+			"content_color":"BLACK",
 #end
+			"content_background_color":"WHITE",
+			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
