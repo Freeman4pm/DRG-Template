@@ -552,8 +552,8 @@
 			"end_y":21,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"halen = 1 betalen  ",
-			"custom_content_value":"halen = 1 betalen  ",
+			"content_value":"halen = 1  betalen  ",
+			"custom_content_value":"halen = 1  betalen  ",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":true,
@@ -608,7 +608,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":178,
+			"start_x":176,
 			"start_y":21,
 			"end_x":193,
 			"end_y":45,
