@@ -218,7 +218,7 @@
 			"end_y":258,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-#if($price1_int == "")
+#if($price2_int == "")
 			"content_value":"0",
 #else
 			"content_value":"$price2_int",
