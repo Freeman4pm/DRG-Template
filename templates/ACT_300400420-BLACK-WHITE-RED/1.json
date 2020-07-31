@@ -146,7 +146,7 @@
 #end
 		{
 			"start_x":4,
-			"start_y":193,
+			"start_y":190,
 			"end_x":201,
 			"end_y":220,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -182,8 +182,8 @@
 			"end_y":35,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"halen  =  1    belalen",
-			"custom_content_value":"halen  =  1   belalen",
+			"content_value":"halen  =  1    belalen ",
+			"custom_content_value":"halen  =  1   belalen ",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":true,
