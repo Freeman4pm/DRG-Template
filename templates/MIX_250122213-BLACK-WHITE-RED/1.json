@@ -338,9 +338,9 @@
 		},
 		{
 			"start_x":139,
-			"start_y":45,
+			"start_y":46,
 			"end_x":163,
-			"end_y":67,
+			"end_y":68,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"PICK",
