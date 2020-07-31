@@ -176,7 +176,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":185,
+			"start_x":182,
 			"start_y":0,
 			"end_x":399,
 			"end_y":35,
@@ -754,7 +754,7 @@
 			"text_decoration":"underline"
 		},
 		{
-			"start_x":195,
+			"start_x":191,
 			"start_y":5,
 			"end_x":295,
 			"end_y":31,
