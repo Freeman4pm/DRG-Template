@@ -546,17 +546,20 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":195,
+			"start_x":190,
 			"start_y":30,
-			"end_x":290,
+			"end_x":285,
 			"end_y":56,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($saleMode == 2332)
+			"font_type":"Impact regular  16",
 			"content_value":"Per 2 Stuks",
 #elseif($saleMode == 2333)
+			"font_type":"Impact regular  13",
 			"content_value":"Vandaag consumeren",
 #else
+			"font_type":"Impact regular  18",
 			"content_value":"Per   Stuk",
 #end
 			"custom_content_value":"Per     Stuk",
@@ -572,7 +575,6 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  16",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
