@@ -48,7 +48,7 @@
 			"content_title":"NONE",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
-			"content_reverse":true,
+			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
@@ -153,7 +153,7 @@
 			"text_decoration":"none"
 		},
 #set($x_start = 0)
-#set($x_end = $x_start + 35)
+#set($x_end = $x_start + 30)
 #set($allerges = $rsrvTxt1.split(','))
 
 #foreach($i in $allerges)
@@ -161,7 +161,7 @@
 			"start_x":$x_start,
 			"start_y":0,
 			"end_x":$x_end,
-			"end_y":35,
+			"end_y":30,
 			"content_type":"CONTENT_TYPE_IMAGE",
 			"content_title":"NONE",
 			"content_value":"${i}.png",
@@ -181,8 +181,8 @@
 			"auto_scale":true,
 			"image_dithering":true
 		},
-#set($x_start = $x_start + 35)
-#set($x_end = $x_end + 35)
+#set($x_start = $x_start + 30)
+#set($x_end = $x_end + 30)
 #end		
 		{
 			"start_x":2,
