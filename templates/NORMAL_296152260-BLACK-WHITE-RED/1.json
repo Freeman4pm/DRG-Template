@@ -485,10 +485,10 @@
 			"end_y":112,
 			"font_type":"JanBold 20",
 #else
-			"start_x":237,
-			"start_y":68,
-			"end_x":284,
-			"end_y":112,
+			"start_x":238,
+			"start_y":66,
+			"end_x":290,
+			"end_y":108,
 			"font_type":"JanBold 26",
 #end
 			"auto_wrap":false,
