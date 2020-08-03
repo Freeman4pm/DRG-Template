@@ -184,6 +184,7 @@
 #set($x_start = $x_start + 30)
 #set($x_end = $x_end + 30)
 #end		
+#if($itemStatus == "Y")
 		{
 			"start_x":2,
 			"start_y":103,
@@ -215,6 +216,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":2,
 			"start_y":127,
@@ -243,6 +245,7 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+
 		{
 			"start_x":117,
 			"start_y":65,
@@ -413,6 +416,11 @@
 			"line_thickness":1,
 			"diagonal_type":"HORIZONTAL"
 		},
+#set($price1_s = $util.toString($price1))
+#set($price_len = $util.strlen($price1_s))
+#set($price1_int = $price1_s.substring(0, $price_len - 5))
+#set($price1_dec = $price1_s.substring($price_len - 4, $price_len - 2))
+
 		{
 			"start_x":190,
 			"start_y":66,
@@ -420,13 +428,17 @@
 			"end_y":132,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
+#if($price1_int == "")
 			"content_value":"0",
-			"custom_content_value":"0",
-			"content_color":"BLACK",
-			"content_background_color":"WHITE",
-			"content_reverse":true,
+#else
+			"content_value":"$price1_int",
+#end
+			"custom_content_value":"1",
+			"content_color":"WHITE",
+			"content_background_color":"RED",
+			"content_reverse":false,
 			"content_alignment":"right",
-			"content_vertical_alignment":"top",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -434,8 +446,52 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold regular  44",
-			"auto_wrap":true,
+#if($price1>=10)
+			"font_type":"JanBold 38",
+#else
+			"font_type":"JanBold 44",
+#end
+			"auto_wrap":false,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		},	
+		{
+			
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":"$price1_dec",
+			"custom_content_value":"1",
+			"content_color":"WHITE",
+			"content_background_color":"RED",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"bottom",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+#if($price1>=10)
+			"start_x":237,
+			"start_y":68,
+			"end_x":284,
+			"end_y":112,
+			"font_type":"JanBold 20",
+#else
+			"start_x":237,
+			"start_y":68,
+			"end_x":284,
+			"end_y":112,
+			"font_type":"JanBold 26",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -452,12 +508,12 @@
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
-			"custom_content_value":".",
-			"content_color":"BLACK",
-			"content_background_color":"WHITE",
-			"content_reverse":true,
+			"custom_content_value":"1",
+			"content_color":"WHITE",
+			"content_background_color":"RED",
+			"content_reverse":false,
 			"content_alignment":"left",
-			"content_vertical_alignment":"top",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -465,39 +521,12 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold regular  44",
-			"auto_wrap":true,
-			"auto_scale":false,
-			"auto_scale_width":false,
-			"auto_narrow_width":false,
-			"auto_stretch_height":false,
-			"split_by_space":false,
-			"line_spacing":5,
-			"text_decoration":"none"
-		},
-		{
-			"start_x":237,
-			"start_y":68,
-			"end_x":284,
-			"end_y":112,
-			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
-			"content_value":"99",
-			"custom_content_value":"99",
-			"content_color":"BLACK",
-			"content_background_color":"WHITE",
-			"content_reverse":true,
-			"content_alignment":"left",
-			"content_vertical_alignment":"top",
-			"background_transparent":true,
-			"border":false,
-			"corner_width":0,
-			"corner_height":0,
-			"rotate":0,
-			"line_stroke":1,
-			"visible":true,
-			"font_type":"JanBold regular  26",
-			"auto_wrap":true,
+#if($price1>=10)
+			"font_type":"JanBold 38",
+#else
+			"font_type":"JanBold 44",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
