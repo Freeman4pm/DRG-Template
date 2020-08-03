@@ -553,14 +553,14 @@
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($saleMode == 2332)
-			"font_type":"Impact regular  16",
+			"font_type":"Impact regular  14",
 			"content_value":"Per 2 Stuks",
 #elseif($saleMode == 2333)
 			"font_type":"Impact regular  11",
 			"content_value":"Vandaag consumeren",
 #else
 			"font_type":"Impact regular  18",
-			"content_value":"Per   Stuk",
+			"content_value":"Per  Stuk",
 #end
 			"custom_content_value":"Per     Stuk",
 			"content_color":"BLACK",
