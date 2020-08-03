@@ -485,9 +485,9 @@
 			"visible":true,
 #if($price1>=10)
 			"start_x":246,
-			"start_y":68,
+			"start_y":70,
 			"end_x":290,
-			"end_y":112,
+			"end_y":114,
 			"font_type":"JanBold 20",
 #else
 			"start_x":238,
@@ -528,7 +528,7 @@
 			"start_y":67,
 			"end_x":276,
 			"end_y":133,
-			"font_type":"JanBold 38",
+			"font_type":"JanBold 33",
 #else
 			"start_x":237,
 			"start_y":67,
