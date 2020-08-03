@@ -51,7 +51,7 @@
 			"content_reverse":true,
 			"content_alignment":"left",
 			"content_vertical_alignment":"top",
-			"background_transparent":false,
+			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
 			"corner_height":0,
