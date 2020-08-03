@@ -554,10 +554,11 @@
 			"content_title":"NONE",
 #if($saleMode == 2332)
 			"content_value":"Per 2 Stuks",
-#else if($saleMode == 2333)
+#elseif($saleMode == 2333)
 			"content_value":"Vandaag consumeren",
 #else
 			"content_value":"Per   Stuk",
+#end
 			"custom_content_value":"Per     Stuk",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
