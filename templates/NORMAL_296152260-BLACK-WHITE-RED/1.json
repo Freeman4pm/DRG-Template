@@ -159,9 +159,9 @@
 #foreach($i in $allerges)
 		{
 			"start_x":$x_start,
-			"start_y":0,
+			"start_y":1,
 			"end_x":$x_end,
-			"end_y":30,
+			"end_y":31,
 			"content_type":"CONTENT_TYPE_IMAGE",
 			"content_title":"NONE",
 			"content_value":"${i}.png",
