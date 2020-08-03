@@ -447,7 +447,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>=10)
-			"font_type":"JanBold 38",
+			"font_type":"JanBold 33",
 #else
 			"font_type":"JanBold 44",
 #end
@@ -483,7 +483,7 @@
 			"start_y":68,
 			"end_x":284,
 			"end_y":112,
-			"font_type":"JanBold 20",
+			"font_type":"JanBold 21",
 #else
 			"start_x":238,
 			"start_y":66,
