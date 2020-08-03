@@ -549,7 +549,7 @@
 			"start_x":190,
 			"start_y":30,
 			"end_x":285,
-			"end_y":65,
+			"end_y":70,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($saleMode == 2332)
