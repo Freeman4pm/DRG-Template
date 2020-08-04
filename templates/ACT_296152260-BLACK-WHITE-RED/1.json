@@ -132,6 +132,32 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($saleMode == "1170")
+		{
+			"start_x":40,
+			"start_y":23,
+			"end_x":140,
+			"end_y":45,
+			"content_type":"CONTENT_TYPE_IMAGE",
+			"content_title":"NONE",
+			"content_value":"NIX18.png",
+			"custom_content_value":"NIX18.png",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"auto_scale":true,
+			"image_dithering":true
+		},
+#end
 #set($x_start = 0)
 #set($x_end = $x_start + 22)
 #set($allerges = $rsrvTxt1.split(','))
