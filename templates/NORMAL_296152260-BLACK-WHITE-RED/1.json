@@ -43,7 +43,7 @@
 			"start_x":0,
 			"start_y":0,
 			"end_x":180,
-			"end_y":32,
+			"end_y":34,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -152,10 +152,38 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($saleMode == "1170")
+		{
+			"start_x":90
+			"start_y":1,
+			"end_x":180,
+			"end_y":34,
+			"content_type":"CONTENT_TYPE_IMAGE",
+			"content_title":"NONE",
+			"content_value":"NIX18.png",
+			"custom_content_value":"NIX18.png",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"auto_scale":true,
+			"image_dithering":true
+		},
+#end
+		
+		
 #set($x_start = 0)
 #set($x_end = $x_start + 30)
 #set($allerges = $rsrvTxt1.split(','))
-
+#if($saleMode == "2330" || $saleMode == "2331" || $saleMode == "3234" || $saleMode == "2332" || $saleMode == "2333")
 #foreach($i in $allerges)
 		{
 			"start_x":$x_start,
@@ -183,7 +211,8 @@
 		},
 #set($x_start = $x_start + 30)
 #set($x_end = $x_end + 30)
-#end		
+#end
+#end
 #if($itemStatus == "Y")
 		{
 			"start_x":2,
