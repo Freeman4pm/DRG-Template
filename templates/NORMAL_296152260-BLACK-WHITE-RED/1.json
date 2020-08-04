@@ -43,7 +43,7 @@
 			"start_x":0,
 			"start_y":0,
 			"end_x":180,
-			"end_y":34,
+			"end_y":35,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -154,9 +154,9 @@
 		},
 #if($saleMode == "1170")
 		{
-			"start_x":60,
+			"start_x":30,
 			"start_y":1,
-			"end_x":180,
+			"end_x":150,
 			"end_y":34,
 			"content_type":"CONTENT_TYPE_IMAGE",
 			"content_title":"NONE",
