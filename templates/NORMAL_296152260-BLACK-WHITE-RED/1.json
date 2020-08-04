@@ -183,7 +183,7 @@
 #set($x_start = 0)
 #set($x_end = $x_start + 30)
 #set($allerges = $rsrvTxt1.split(','))
-#if($saleMode == "2330" || $saleMode == "2331" || $saleMode == "3234" || $saleMode == "2332" || $saleMode == "2333")
+#if($saleMode == "2330" or $saleMode == "2331" or $saleMode == "3234" or $saleMode == "2332" or $saleMode == "2333")
 #foreach($i in $allerges)
 		{
 			"start_x":$x_start,
