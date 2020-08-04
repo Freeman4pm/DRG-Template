@@ -132,6 +132,39 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#set($x_start = 0)
+#set($x_end = $x_start + 22)
+#set($allerges = $rsrvTxt1.split(','))
+#if($saleMode == "2330" or $saleMode == "2331" or $saleMode == "3234" or $saleMode == "2332" or $saleMode == "2333")
+#foreach($i in $allerges)
+		{
+			"start_x":$x_start,
+			"start_y":23,
+			"end_x":$x_end,
+			"end_y":45,
+			"content_type":"CONTENT_TYPE_IMAGE",
+			"content_title":"NONE",
+			"content_value":"${i}.png",
+			"custom_content_value":"${i}.png",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":true,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"auto_scale":true,
+			"image_dithering":true
+		},
+#set($x_start = $x_start + 22)
+#set($x_end = $x_end + 22)
+#end
+#end
 		{
 			"start_x":1,
 			"start_y":106,
