@@ -154,7 +154,7 @@
 		},
 #if($saleMode == "1170")
 		{
-			"start_x":90
+			"start_x":90,
 			"start_y":1,
 			"end_x":180,
 			"end_y":34,
