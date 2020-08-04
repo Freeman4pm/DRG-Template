@@ -582,7 +582,7 @@
 			"text_decoration":"none"
 		},
 				{
-			"start_x":294,
+			"start_x":295,
 			"start_y":0,
 			"end_x":295,
 			"end_y":151,
@@ -606,7 +606,7 @@
 				{
 			"start_x":0,
 			"start_y":0,
-			"end_x":1,
+			"end_x":0,
 			"end_y":151,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
@@ -627,7 +627,7 @@
 		},
 				{
 			"start_x":0,
-			"start_y":150,
+			"start_y":151,
 			"end_x":295,
 			"end_y":151,
 			"content_type":"CONTENT_TYPE_LINE",
@@ -651,7 +651,7 @@
 			"start_x":0,
 			"start_y":0,
 			"end_x":295,
-			"end_y":1,
+			"end_y":0,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"RED",
