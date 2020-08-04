@@ -165,6 +165,8 @@
 #set($x_end = $x_end + 22)
 #end
 #end
+		
+#if($itemStatus == "Y")
 		{
 			"start_x":1,
 			"start_y":106,
@@ -196,6 +198,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":2,
 			"start_y":127,
