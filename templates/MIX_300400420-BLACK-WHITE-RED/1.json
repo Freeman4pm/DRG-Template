@@ -870,7 +870,7 @@
 			"fraction_digits":2
 		},
 		{
-			"start_x":230,
+			"start_x":231,
 			"start_y":200,
 			"end_x":267,
 			"end_y":220,
@@ -890,7 +890,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  14",
+			"font_type":"Impact regular  13",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -932,7 +932,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":225,
+			"start_x":222,
 			"start_y":237,
 			"end_x":276,
 			"end_y":263,
@@ -962,37 +962,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-		{
-			"start_x":238,
-			"start_y":237,
-			"end_x":261,
-			"end_y":263,
-			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"price2Description",
-			"content_value":"20",
-			"custom_content_value":"20",
-			"content_color":"WHITE",
-			"content_background_color":"BLACK",
-			"content_reverse":false,
-			"content_alignment":"left",
-			"content_vertical_alignment":"top",
-			"background_transparent":true,
-			"border":false,
-			"corner_width":0,
-			"corner_height":0,
-			"rotate":0,
-			"line_stroke":1,
-			"visible":true,
-			"font_type":"Impact regular  14",
-			"auto_wrap":true,
-			"auto_scale":false,
-			"auto_scale_width":false,
-			"auto_narrow_width":false,
-			"auto_stretch_height":false,
-			"split_by_space":false,
-			"line_spacing":5,
-			"text_decoration":"none"
-		},
+	
 		{
 			"start_x":250,
 			"start_y":192,
