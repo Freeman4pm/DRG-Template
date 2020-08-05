@@ -870,8 +870,8 @@
 			"fraction_digits":2
 		},
 		{
-			"start_x":244,
-			"start_y":194,
+			"start_x":230,
+			"start_y":200,
 			"end_x":267,
 			"end_y":220,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -890,7 +890,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  13",
+			"font_type":"Impact regular  14",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -921,7 +921,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  15",
+			"font_type":"Impact regular  13",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
