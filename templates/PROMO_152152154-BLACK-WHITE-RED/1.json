@@ -285,15 +285,15 @@
 			"visible":true,
 #if($price2>=10)
 			"start_x":80,
-			"start_y":58,
+			"start_y":68,
 			"end_x":119,
-			"end_y":105,
+			"end_y":115,
 			"font_type":"JanBold 24",
 #else
 			"start_x":80,
-			"start_y":58,
+			"start_y":68,
 			"end_x":112,
-			"end_y":105,
+			"end_y":115,
 			"font_type":"JanBold 30",
 #end
 			"auto_wrap":false,
@@ -325,15 +325,15 @@
 			"visible":true,
 #if($price2>=10)
 			"start_x":120,
-			"start_y":54,
+			"start_y":64,
 			"end_x":140,
-			"end_y":105,
+			"end_y":115,
 			"font_type":"JanBold 25",
 #else
 			"start_x":111,
-			"start_y":54,
+			"start_y":56,
 			"end_x":130,
-			"end_y":105,
+			"end_y":115,
 			"font_type":"JanBold 30",
 #end
 			"auto_wrap":false,
@@ -364,15 +364,15 @@
 			"visible":true,
 #if($price2>=10)
 			"start_x":122,
-			"start_y":50,
+			"start_y":60,
 			"end_x":150,
-			"end_y":90,
+			"end_y":100,
 			"font_type":"JanBold 13",
 #else
 			"start_x":114,
-			"start_y":50,
+			"start_y":60,
 			"end_x":148,
-			"end_y":87,
+			"end_y":97,
 			"font_type":"JanBold 17",
 #end
 			"auto_wrap":false,
