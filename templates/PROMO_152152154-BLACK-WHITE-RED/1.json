@@ -46,7 +46,7 @@
 		{
 			"start_x":2,
 			"start_y":36,
-			"end_x":73,
+			"end_x":80,
 			"end_y":53,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemName",
@@ -76,9 +76,9 @@
 		},
 		{
 			"start_x":2,
-			"start_y":93,
+			"start_y":100,
 			"end_x":73,
-			"end_y":106,
+			"end_y":110,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"brand",
 			"content_value":"Becel",
@@ -383,9 +383,9 @@
 		},
 		{
 			"start_x":3,
-			"start_y":70,
+			"start_y":81,
 			"end_x":74,
-			"end_y":87,
+			"end_y":100,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemShortName",
 			"content_value":"Original",
@@ -402,7 +402,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  8",
+			"font_type":"Impact regular  9",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -444,7 +444,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":119,
+			"start_x":121,
 			"start_y":6,
 			"end_x":151,
 			"end_y":30,
