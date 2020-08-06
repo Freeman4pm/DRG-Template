@@ -140,18 +140,18 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-		#set($price1_s = $util.toString($price1))
-#set($price_len = $util.strlen($price1_s))
-#set($price1_int = $price1_s.substring(0, $price_len - 5))
-#set($price1_dec = $price1_s.substring($price_len - 4, $price_len - 2))
+#set($price2_s = $util.toString($price2))
+#set($price_len = $util.strlen($price2_s))
+#set($price2_int = $price2_s.substring(0, $price_len - 5))
+#set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
 		{
 
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-#if($price1_int == "")
+#if($price2_int == "")
 			"content_value":"0",
 #else
-			"content_value":"$price1_int",
+			"content_value":"$price2_int",
 #end
 			"custom_content_value":"0",
 			"content_color":"WHITE",
@@ -166,7 +166,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price1>=10)
+#if($price2>=10)
 			"start_x":80,
 			"start_y":58,
 			"end_x":119,
@@ -206,7 +206,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price1>=10)
+#if($price2>=10)
 			"start_x":120,
 			"start_y":54,
 			"end_x":140,
@@ -231,7 +231,7 @@
 		{
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"$price1_dec",
+			"content_value":"$price2_dec",
 			"custom_content_value":"99",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
@@ -245,7 +245,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price1>=10)
+#if($price2>=10)
 			"start_x":122,
 			"start_y":50,
 			"end_x":150,
