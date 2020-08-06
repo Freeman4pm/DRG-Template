@@ -47,7 +47,7 @@
 			"start_x":2,
 			"start_y":36,
 			"end_x":80,
-			"end_y":53,
+			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemName",
 			"content_value":"Original",
@@ -444,7 +444,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":121,
+			"start_x":123,
 			"start_y":6,
 			"end_x":151,
 			"end_y":30,
