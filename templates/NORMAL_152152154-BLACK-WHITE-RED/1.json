@@ -267,9 +267,9 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price1>=10)
-			"start_x":116,
+			"start_x":122,
 			"start_y":50,
-			"end_x":148,
+			"end_x":150,
 			"end_y":90,
 			"font_type":"JanBold 13",
 #else
