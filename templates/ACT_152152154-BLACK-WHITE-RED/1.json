@@ -329,6 +329,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($itemStatus == 'Y')
 		{
 			"start_x":0,
 			"start_y":121,
@@ -360,6 +361,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":80,
 			"start_y":111,
