@@ -792,7 +792,7 @@
 		{
 			"start_x":275,
 			"start_y":148,
-			"end_x":330,
+			"end_x":380,
 			"end_y":170,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -821,7 +821,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":340,
+			"start_x":365,
 			"start_y":148,
 			"end_x":399,
 			"end_y":170,
@@ -1016,8 +1016,8 @@
 			"diagonal_type":"MAJOR"
 		},
 		{
-			"start_x":340,
-			"start_y":270,
+			"start_x":370,
+			"start_y":260,
 			"end_x":399,
 			"end_y":299,
 			"content_type":"CONTENT_TYPE_TEXT",
