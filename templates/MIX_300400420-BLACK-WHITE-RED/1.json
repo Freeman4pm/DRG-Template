@@ -260,7 +260,7 @@
 			"start_x":270,
 			"start_y":207,
 			"end_x":334,
-			"end_y":283,
+			"end_y":276,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($price2_int == "")
@@ -317,13 +317,13 @@
 			"start_x":335,
 			"start_y":221,
 			"end_x":390,
-			"end_y":276,
+			"end_y":270,
 			"font_type":"JanBold 22",
 #else
 			"start_x":335,
 			"start_y":221,
 			"end_x":390,
-			"end_y":276,
+			"end_y":270,
 			"font_type":"JanBold 27",
 #end
 			"auto_wrap":false,
@@ -339,7 +339,7 @@
 			"start_x":333,
 			"start_y":206,
 			"end_x":399,
-			"end_y":282,
+			"end_y":275,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
