@@ -743,8 +743,8 @@
 			"end_y":221,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"bij         stuks",
-			"custom_content_value":"bij         stuks",
+			"content_value":"bij        stuks",
+			"custom_content_value":"bij        stuks",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
 			"content_reverse":false,
@@ -821,7 +821,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":365,
+			"start_x":355,
 			"start_y":148,
 			"end_x":399,
 			"end_y":170,
