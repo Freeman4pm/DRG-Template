@@ -251,7 +251,7 @@
 			"text_decoration":"underline"
 		},
 
-#set($price2_s = $util.toString($price2))
+#set($price2_s = $util.toString($(price2*3)))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -743,8 +743,8 @@
 			"end_y":221,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"voor",
-			"custom_content_value":"voor",
+			"content_value":"VOOR",
+			"custom_content_value":"VOOR",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
 			"content_reverse":false,
@@ -826,7 +826,7 @@
 			"end_x":399,
 			"end_y":170,
 			"content_type":"CONTENT_TYPE_NUMBER",
-			"content_title":"price1",
+			"content_title":"price2",
 			"content_value":"0",
 			"custom_content_value":"0",
 			"content_color":"WHITE",
