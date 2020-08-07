@@ -505,7 +505,7 @@
 			"fraction_digits":2
 		},
 		{
-			"start_x":46,
+			"start_x":44,
 			"start_y":0,
 			"end_x":151,
 			"end_y":23,
@@ -525,7 +525,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  12",
+			"font_type":"Impact regular  11",
 			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -587,7 +587,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  14",
+			"font_type":"Impact regular  15",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
