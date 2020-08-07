@@ -260,7 +260,7 @@
 			"start_x":270,
 			"start_y":207,
 			"end_x":334,
-			"end_y":283,
+			"end_y":273,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($price2_int == "")
@@ -315,13 +315,13 @@
 			"visible":true,
 #if($price2>=10)
 			"start_x":335,
-			"start_y":221,
+			"start_y":211,
 			"end_x":390,
 			"end_y":276,
 			"font_type":"JanBold 22",
 #else
 			"start_x":335,
-			"start_y":221,
+			"start_y":211,
 			"end_x":390,
 			"end_y":276,
 			"font_type":"JanBold 27",
@@ -339,7 +339,7 @@
 			"start_x":333,
 			"start_y":206,
 			"end_x":399,
-			"end_y":282,
+			"end_y":272,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
@@ -738,7 +738,7 @@
 		},
 		{
 			"start_x":286,
-			"start_y":180,
+			"start_y":170,
 			"end_x":399,
 			"end_y":221,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -1016,9 +1016,9 @@
 			"diagonal_type":"MAJOR"
 		},
 		{
-			"start_x":370,
-			"start_y":260,
-			"end_x":399,
+			"start_x":320,
+			"start_y":280,
+			"end_x":379,
 			"end_y":299,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -1048,7 +1048,7 @@
 		},
 		{
 			"start_x":317,
-			"start_y":178,
+			"start_y":168,
 			"end_x":340,
 			"end_y":214,
 			"content_type":"CONTENT_TYPE_TEXT",
