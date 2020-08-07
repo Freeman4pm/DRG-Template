@@ -737,9 +737,9 @@
 			"diagonal_type":"VERTICAL"
 		},
 		{
-			"start_x":286,
+			"start_x":281,
 			"start_y":176,
-			"end_x":385,
+			"end_x":380,
 			"end_y":221,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -757,7 +757,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  17",
+			"font_type":"Impact regular  18",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -986,7 +986,7 @@
 			"diagonal_type":"MAJOR"
 		},
 		{
-			"start_x":310,
+			"start_x":305,
 			"start_y":175,
 			"end_x":340,
 			"end_y":214,
