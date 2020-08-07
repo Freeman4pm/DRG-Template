@@ -508,7 +508,7 @@
 			"start_x":44,
 			"start_y":0,
 			"end_x":151,
-			"end_y":23,
+			"end_y":21,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"3 halen = 1 betalen",
@@ -568,7 +568,7 @@
 		},
 		{
 			"start_x":84,
-			"start_y":33,
+			"start_y":31,
 			"end_x":128,
 			"end_y":53,
 			"content_type":"CONTENT_TYPE_TEXT",
