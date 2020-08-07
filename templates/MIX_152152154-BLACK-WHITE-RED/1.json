@@ -197,7 +197,7 @@
 		},
 		{
 			"start_x":82,
-			"start_y":44,
+			"start_y":42,
 			"end_x":140,
 			"end_y":59,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -227,7 +227,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":97,
+			"start_x":93,
 			"start_y":40,
 			"end_x":116,
 			"end_y":67,
@@ -286,13 +286,13 @@
 #if($price2>=10)
 			"start_x":80,
 			"start_y":68,
-			"end_x":119,
+			"end_x":117,
 			"end_y":115,
 			"font_type":"JanBold 24",
 #else
 			"start_x":80,
 			"start_y":68,
-			"end_x":112,
+			"end_x":110,
 			"end_y":115,
 			"font_type":"JanBold 30",
 #end
