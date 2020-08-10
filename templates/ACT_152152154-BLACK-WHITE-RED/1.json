@@ -362,6 +362,7 @@
 			"text_decoration":"none"
 		},
 #end
+#if($price3 > 0)
 		{
 			"start_x":80,
 			"start_y":111,
@@ -393,6 +394,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":81,
 			"start_y":125,
@@ -424,6 +426,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($price3 > 0)
 		{
 			"start_x":104,
 			"start_y":136,
@@ -455,6 +458,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":110,
 			"start_y":136,
