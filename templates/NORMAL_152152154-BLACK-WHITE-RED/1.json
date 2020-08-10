@@ -446,7 +446,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":107,
+			"start_x":104,
 			"start_y":136,
 			"end_x":118,
 			"end_y":151,
@@ -477,9 +477,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":118,
+			"start_x":110,
 			"start_y":136,
-			"end_x":149,
+			"end_x":151,
 			"end_y":148,
 			"content_type":"CONTENT_TYPE_NUMBER",
 			"content_title":"price3",
