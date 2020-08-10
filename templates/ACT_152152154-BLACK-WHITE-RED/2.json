@@ -23,7 +23,7 @@
 			"start_x":2,
 			"start_y":36,
 			"end_x":73,
-			"end_y":53,
+			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemName",
 			"content_value":"Original",
@@ -140,20 +140,25 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#set($price2_s = $util.toString($price2))
+#set($price_len = $util.strlen($price2_s))
+#set($price2_int = $price2_s.substring(0, $price_len - 5))
+#set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
 		{
-			"start_x":80,
-			"start_y":58,
-			"end_x":112,
-			"end_y":109,
+
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
+#if($price2_int == "")
 			"content_value":"0",
+#else
+			"content_value":"$price2_int",
+#end
 			"custom_content_value":"0",
 			"content_color":"WHITE",
-			"content_background_color":"RED",
+			"content_background_color":"BLACK",
 			"content_reverse":false,
 			"content_alignment":"right",
-			"content_vertical_alignment":"middle",
+			"content_vertical_alignment":"bottom",
 			"background_transparent":true,
 			"border":false,
 			"corner_width":0,
@@ -161,8 +166,20 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold regular  30",
-			"auto_wrap":true,
+#if($price2>=10)
+			"start_x":80,
+			"start_y":58,
+			"end_x":119,
+			"end_y":105,
+			"font_type":"JanBold 24",
+#else
+			"start_x":80,
+			"start_y":58,
+			"end_x":112,
+			"end_y":105,
+			"font_type":"JanBold 30",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -172,16 +189,13 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":111,
-			"start_y":54,
-			"end_x":130,
-			"end_y":105,
+
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
 			"custom_content_value":".",
 			"content_color":"WHITE",
-			"content_background_color":"RED",
+			"content_background_color":"BLACK",
 			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"bottom",
@@ -192,8 +206,20 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold regular  30",
-			"auto_wrap":true,
+#if($price2>=10)
+			"start_x":120,
+			"start_y":54,
+			"end_x":140,
+			"end_y":105,
+			"font_type":"JanBold 25",
+#else
+			"start_x":111,
+			"start_y":54,
+			"end_x":130,
+			"end_y":105,
+			"font_type":"JanBold 30",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -203,16 +229,12 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":114,
-			"start_y":50,
-			"end_x":148,
-			"end_y":87,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"69",
-			"custom_content_value":"69",
+			"content_value":"$price2_dec",
+			"custom_content_value":"99",
 			"content_color":"WHITE",
-			"content_background_color":"RED",
+			"content_background_color":"BLACK",
 			"content_reverse":false,
 			"content_alignment":"left",
 			"content_vertical_alignment":"bottom",
@@ -223,8 +245,20 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"JanBold regular  17",
-			"auto_wrap":true,
+#if($price2>=10)
+			"start_x":122,
+			"start_y":50,
+			"end_x":150,
+			"end_y":90,
+			"font_type":"JanBold 13",
+#else
+			"start_x":114,
+			"start_y":50,
+			"end_x":148,
+			"end_y":87,
+			"font_type":"JanBold 17",
+#end
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -266,9 +300,9 @@
 		},
 		{
 			"start_x":3,
-			"start_y":77,
+			"start_y":80,
 			"end_x":74,
-			"end_y":94,
+			"end_y":95,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemShortName",
 			"content_value":"Original",
@@ -295,6 +329,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($itemStatus == 'Y')
 		{
 			"start_x":0,
 			"start_y":121,
@@ -326,6 +361,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":80,
 			"start_y":111,
@@ -389,7 +425,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":107,
+			"start_x":104,
 			"start_y":136,
 			"end_x":118,
 			"end_y":151,
@@ -420,9 +456,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":118,
+			"start_x":110,
 			"start_y":136,
-			"end_x":149,
+			"end_x":151,
 			"end_y":148,
 			"content_type":"CONTENT_TYPE_NUMBER",
 			"content_title":"price3",
@@ -469,7 +505,7 @@
 			"fraction_digits":2
 		},
 		{
-			"start_x":51,
+			"start_x":44,
 			"start_y":0,
 			"end_x":151,
 			"end_y":19,
@@ -489,8 +525,8 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  9",
-			"auto_wrap":true,
+			"font_type":"Impact regular  10",
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -520,7 +556,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  13",
+			"font_type":"Impact regular  11",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -532,7 +568,7 @@
 		},
 		{
 			"start_x":84,
-			"start_y":34,
+			"start_y":31,
 			"end_x":128,
 			"end_y":53,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -551,7 +587,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  14",
+			"font_type":"Impact regular  16",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -562,14 +598,14 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":107,
+			"start_x":101,
 			"start_y":33,
 			"end_x":151,
 			"end_y":52,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"voor",
-			"custom_content_value":"voor",
+			"content_value":"VOOR",
+			"custom_content_value":"VOOR",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
 			"content_reverse":false,
