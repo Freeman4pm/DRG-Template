@@ -64,10 +64,10 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($itemName.length()>20)
+#if($itemName.length()>18)
 			"font_type":"Impact regular  10",
 #else
-			"font_type":"Impact regular  12",
+			"font_type":"Impact regular  13",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
