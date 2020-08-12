@@ -506,7 +506,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":200,
+			"start_x":197,
 			"start_y":10,
 			"end_x":249,
 			"end_y":30,
@@ -528,7 +528,7 @@
 			"diagonal_type":"MAJOR"
 		},
 		{
-			"start_x":199,
+			"start_x":196,
 			"start_y":12,
 			"end_x":249,
 			"end_y":30,
