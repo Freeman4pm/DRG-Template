@@ -293,9 +293,9 @@
 
 		{
 			"start_x":145,
-			"start_y":1,
+			"start_y":11,
 			"end_x":200,
-			"end_y":80,
+			"end_y":90,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($price1_int == "")
@@ -350,15 +350,15 @@
 			"visible":true,
 #if($price1>=10)
 			"start_x":202,
-			"start_y":32,
+			"start_y":42,
 			"end_x":249,
-			"end_y":65,
+			"end_y":75,
 			"font_type":"JanBold 17",
 #else
 			"start_x":202,
-			"start_y":33,
+			"start_y":43,
 			"end_x":249,
-			"end_y":60,
+			"end_y":70,
 			"font_type":"JanBold 20",
 #end
 			"auto_wrap":false,
@@ -372,9 +372,9 @@
 		},
 		{
 			"start_x":202,
-			"start_y":20,
+			"start_y":30,
 			"end_x":249,
-			"end_y":80,
+			"end_y":90,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":".",
@@ -622,6 +622,10 @@
 			"content_value":"MIDDEN IN SUIKER",
 #elseif($saleMode == "1604" or $saleMode == "3604" or $saleMode == "4604")
 			"content_value":"HOOG IN SUIKER",
+#elseif($saleMode == "1140")
+			"content_value":"Nieuw in assortment",
+#elseif($saleMode == "1159")
+			"content_value":"In prijs verlaagd!",
 #else
 			"content_value":"",
 #end
