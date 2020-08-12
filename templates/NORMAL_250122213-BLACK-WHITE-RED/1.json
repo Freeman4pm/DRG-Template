@@ -524,7 +524,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"line_thickness":6,
+			"line_thickness":15,
 			"diagonal_type":"MAJOR"
 		},
 #end
