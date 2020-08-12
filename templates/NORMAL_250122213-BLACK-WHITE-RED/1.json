@@ -530,8 +530,8 @@
 		{
 			"start_x":196,
 			"start_y":12,
-			"end_x":249,
-			"end_y":30,
+			"end_x":245,
+			"end_y":32,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
