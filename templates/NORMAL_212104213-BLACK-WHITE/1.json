@@ -455,7 +455,7 @@
 			"start_x":182,
 			"start_y":0,
 			"end_x":209,
-			"end_y":16,
+			"end_y":20,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"$price2_dec",
