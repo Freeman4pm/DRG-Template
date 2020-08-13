@@ -725,8 +725,8 @@
 #if($saleMode == "1160")
 ,
 		{
-			"start_x":160,
-			"start_y":30,
+			"start_x":155,
+			"start_y":25,
 			"end_x":249,
 			"end_y":119,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -745,14 +745,14 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"UniversLTStd regular  7",
+			"font_type":"UniversLTStd regular  6",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
 			"auto_stretch_height":false,
 			"split_by_space":false,
-			"line_spacing":5,
+			"line_spacing":2,
 			"text_decoration":"none"
 		}
 #end
