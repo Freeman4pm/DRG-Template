@@ -722,76 +722,142 @@
 			"text_decoration":"none"
 		}
 #end
+#if($saleMode == "1160")
+,
+		{
+			"start_x":180,
+			"start_y":60,
+			"end_x":249,
+			"end_y":119,
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":"verrekend aan de kassa",
+			"custom_content_value":"verrekend aan de kassa",
+			"content_color":"WHITE",
+			"content_background_color":"BLACK",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"font_type":"UniversLTStd regular  8",
+			"auto_wrap":true,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		}
+#end
 #if($saleMode != "1" and $saleMode != "3" and $saleMode != "8" and $saleMode != "12" and $saleMode != "1150" and $saleMode != "1152" and $saleMode != "3001" and $saleMode != "4001")
 		,
 		{
 			"start_x":0,
 			"start_y":0,
-			"end_x":149,
 			"end_y":23,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "18")
+			"end_x":149,
 			"content_value":"Lam",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "19")
+			"end_x":149,
 			"content_value":"Rund",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "20")
+			"end_x":149,
 			"content_value":"Varken",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "21")
+			"end_x":149,
 			"content_value":"Kip",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "22")
+			"end_x":149,
 			"content_value":"Kalkoen",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "23")
+			"end_x":149,
 			"content_value":"Kalf",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "24")
+			"end_x":149,
 			"content_value":"Specialiteit",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "27")
+			"end_x":149,
 			"content_value":"Bio kip",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "28")
+			"end_x":149,
 			"content_value":"Bio rund",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "29")
+			"end_x":149,
 			"content_value":"Bio varken",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "30")
+			"end_x":149,
 			"content_value":"Vegetarisch",
 #elseif($saleMode == "1130" or $saleMode == "1132" )
+			"end_x":149,
 			"content_value":"1 de Beste",
 #elseif($saleMode == "13" or $saleMode == "1120" or $saleMode == "3013")
+			"end_x":149,
 			"content_value":"Fairtrade",
 #elseif($saleMode == "22" or $saleMode == "3022")
 			"content_value":"UTZ",
 #elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005")
+			"end_x":149,
 			"content_value":"Vers",
 #elseif($saleMode == "4")
+			"end_x":149,
 			"content_value":"Vis",
 #elseif($saleMode == "1561" or $saleMode == "3561")
+			"end_x":149,
 			"content_value":"1. Fris wit",
 #elseif($saleMode == "1562" or $saleMode == "3562")
+			"end_x":149,
 			"content_value":"2. Vol wit",
 #elseif($saleMode == "1563" or $saleMode == "3563")
+			"end_x":149,
 			"content_value":"3. Zoet wit",
 #elseif($saleMode == "1564" or $saleMode == "3564")
+			"end_x":149,
 			"content_value":"4. Bubbles",
 #elseif($saleMode == "1565" or $saleMode == "3565")
+			"end_x":149,
 			"content_value":"5. Rose",
 #elseif($saleMode == "1566" or $saleMode == "3566")
+			"end_x":149,
 			"content_value":"6. Fruitig rood",
 #elseif($saleMode == "1567" or $saleMode == "3567")
+			"end_x":149,
 			"content_value":"7. Soepel rood",
 #elseif($saleMode == "1568" or $saleMode == "3568")
+			"end_x":149,
 			"content_value":"8. Krachtig rood",
 #elseif($saleMode == "1569" or $saleMode == "3569")
+			"end_x":149,
 			"content_value":"9. Aperitief",
 #elseif($saleMode == "1601" or $saleMode == "3601" or $saleMode == "4601")
+			"end_x":149,
 			"content_value":"GEEN SUIKER",
 #elseif($saleMode == "1602" or $saleMode == "3602" or $saleMode == "4602")
+			"end_x":149,
 			"content_value":"LAAG IN SUIKER",
 #elseif($saleMode == "1603" or $saleMode == "3603" or $saleMode == "4603")
+			"end_x":149,
 			"content_value":"MIDDEN IN SUIKER",
 #elseif($saleMode == "1604" or $saleMode == "3604" or $saleMode == "4604")
+			"end_x":149,
 			"content_value":"HOOG IN SUIKER",
 #elseif($saleMode == "1140")
+			"end_x":149,
 			"content_value":"Nieuw in assortment",
+#elseif($saleMode == "1160")
+			"end_x":249,
+			"content_value":"Uit assortiment 50% korting op deze prijs",
 #elseif($saleMode == "1159")
+			"end_x":149,
 			"content_value":"In prijs verlaagd!",
 #else
 			"content_value":"",
