@@ -514,10 +514,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":167,
-			"start_y":10,
-			"end_x":207,
-			"end_y":30,
+			"start_x":162,
+			"start_y":5,
+			"end_x":202,
+			"end_y":25,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -536,10 +536,10 @@
 			"diagonal_type":"MAJOR"
 		},
 		{
-			"start_x":166,
-			"start_y":11,
-			"end_x":208,
-			"end_y":31,
+			"start_x":161,
+			"start_y":6,
+			"end_x":203,
+			"end_y":26,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -558,10 +558,10 @@
 			"diagonal_type":"MAJOR"
 		},
 		{
-			"start_x":166,
-			"start_y":12,
-			"end_x":209,
-			"end_y":32,
+			"start_x":161,
+			"start_y":7,
+			"end_x":204,
+			"end_y":27,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
