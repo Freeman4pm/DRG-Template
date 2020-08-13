@@ -590,6 +590,40 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		}
+#if($saleMode == "1160")
+,
+		{
+			"start_x":128,
+			"start_y":21,
+			"end_x":211,
+			"end_y":119,
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"NONE",
+			"content_value":"verrekend aan de kassa",
+			"custom_content_value":"verrekend aan de kassa",
+			"content_color":"WHITE",
+			"content_background_color":"BLACK",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":true,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"font_type":"UniversLTStd regular  6",
+			"auto_wrap":true,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":1,
+			"text_decoration":"none"
+		}
+#end
 #if($saleMode != "1" and $saleMode != "3" and $saleMode != "8" and $saleMode != "12" and $saleMode != "1150" and $saleMode != "1152" and $saleMode != "3001" and $saleMode != "4001")
 		,
 		{
@@ -729,19 +763,19 @@
 #elseif($saleMode == "3610")
 			"end_x":127,
 			"font_type":"Impact regular  9",
-			"content_value":"LAAG SUIKER   LAAG VET",
+			"content_value":"LAAG SUIKER    LAAG VET",
 #elseif($saleMode == "3611")
 			"end_x":127,
 			"font_type":"Impact regular  9",
-			"content_value":"LAAG SUIKER   HOOG VET",
+			"content_value":"LAAG SUIKER    HOOG VET",
 #elseif($saleMode == "3612")
 			"end_x":127,
 			"font_type":"Impact regular  9",
-			"content_value":"HOOG SUIKER   LAAG VET",
+			"content_value":"HOOG SUIKER    LAAG VET",
 #elseif($saleMode == "3613")
 			"end_x":127,
 			"font_type":"Impact regular  9",
-			"content_value":"HOOG SUIKER   HOOG VET",
+			"content_value":"HOOG SUIKER    HOOG VET",
 #else
 			"end_x":127,
 			"content_value":"",
