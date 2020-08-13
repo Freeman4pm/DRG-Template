@@ -594,7 +594,7 @@
 ,
 		{
 			"start_x":128,
-			"start_y":21,
+			"start_y":17,
 			"end_x":211,
 			"end_y":100,
 			"content_type":"CONTENT_TYPE_TEXT",
