@@ -557,7 +557,7 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"none"
-		}
+		},
 #end
 		{
 			"start_x":67,
@@ -595,70 +595,157 @@
 		{
 			"start_x":0,
 			"start_y":0,
-			"end_x":127,
 			"end_y":19,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "18")
+			"end_x":127,
 			"content_value":"Lam",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "19")
+			"end_x":127,
 			"content_value":"Rund",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "20")
+			"end_x":127,
 			"content_value":"Varken",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "21")
+			"end_x":127,
 			"content_value":"Kip",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "22")
+			"end_x":127,
 			"content_value":"Kalkoen",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "23")
+			"end_x":127,
 			"content_value":"Kalf",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "24")
+			"end_x":127,
 			"content_value":"Specialiteit",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "27")
+			"end_x":127,
 			"content_value":"Bio kip",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "28")
+			"end_x":127,
 			"content_value":"Bio rund",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "29")
+			"end_x":127,
 			"content_value":"Bio varken",
+			"font_type":"Impact regular  10",
 #elseif(($saleMode == "5" or $saleMode == "3005" or $saleMode == "4005") and $specification == "30")
+			"end_x":127,
 			"content_value":"Vegetarisch",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1130" or $saleMode == "1132" )
+			"end_x":127,
 			"content_value":"1 de Beste",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "13" or $saleMode == "1120" or $saleMode == "3013")
+			"end_x":127,
 			"content_value":"Fairtrade",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "22" or $saleMode == "3022")
+			"end_x":127,
 			"content_value":"UTZ",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005")
+			"end_x":127,
 			"content_value":"Vers",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "4")
+			"end_x":127,
 			"content_value":"Vis",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1561" or $saleMode == "3561")
+			"end_x":127,
 			"content_value":"1. Fris wit",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1562" or $saleMode == "3562")
+			"end_x":127,
 			"content_value":"2. Vol wit",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1563" or $saleMode == "3563")
+			"end_x":127,
 			"content_value":"3. Zoet wit",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1564" or $saleMode == "3564")
+			"end_x":127,
 			"content_value":"4. Bubbles",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1565" or $saleMode == "3565")
+			"end_x":127,
 			"content_value":"5. Rose",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1566" or $saleMode == "3566")
+			"end_x":127,
 			"content_value":"6. Fruitig rood",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1567" or $saleMode == "3567")
+			"end_x":127,
 			"content_value":"7. Soepel rood",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1568" or $saleMode == "3568")
+			"end_x":127,
 			"content_value":"8. Krachtig rood",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1569" or $saleMode == "3569")
+			"end_x":127,
 			"content_value":"9. Aperitief",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1601" or $saleMode == "3601" or $saleMode == "4601")
+			"end_x":127,
 			"content_value":"GEEN SUIKER",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1602" or $saleMode == "3602" or $saleMode == "4602")
+			"end_x":127,
 			"content_value":"LAAG IN SUIKER",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1603" or $saleMode == "3603" or $saleMode == "4603")
+			"end_x":127,
 			"content_value":"MIDDEN IN SUIKER",
+			"font_type":"Impact regular  10",
 #elseif($saleMode == "1604" or $saleMode == "3604" or $saleMode == "4604")
+			"end_x":127,
 			"content_value":"HOOG IN SUIKER",
+			"font_type":"Impact regular  10",
+#elseif($saleMode == "1140")
+			"end_x":127,
+			"font_type":"Impact regular  10",
+			"content_value":"Nieuw in assortment",
+#elseif($saleMode == "1160")
+			"end_x":211,
+			"font_type":"Impact regular  8",
+			"content_value":"Uit assortiment 50% korting op deze prijs",
+#elseif($saleMode == "1159")
+			"end_x":127,
+			"font_type":"Impact regular  10",
+			"content_value":"In prijs verlaagd!",
+#elseif($saleMode == "3610")
+			"end_x":127,
+			"font_type":"Impact regular  9",
+			"content_value":"LAAG SUIKER   LAAG VET",
+#elseif($saleMode == "3611")
+			"end_x":127,
+			"font_type":"Impact regular  9",
+			"content_value":"LAAG SUIKER   HOOG VET",
+#elseif($saleMode == "3612")
+			"end_x":127,
+			"font_type":"Impact regular  9",
+			"content_value":"HOOG SUIKER   LAAG VET",
+#elseif($saleMode == "3613")
+			"end_x":127,
+			"font_type":"Impact regular  9",
+			"content_value":"HOOG SUIKER   HOOG VET",
 #else
+			"end_x":127,
 			"content_value":"",
+			"font_type":"Impact regular  10",
 #end
 
 			"custom_content_value":"Bio runder",
@@ -674,7 +761,6 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  9",
 			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
