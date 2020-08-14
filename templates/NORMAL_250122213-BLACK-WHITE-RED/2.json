@@ -144,7 +144,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":213,
+			"start_x":210,
 			"start_y":75,
 			"end_x":249,
 			"end_y":103,
@@ -190,10 +190,10 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":2
+			"fraction_digits":1
 		},
 		{
-			"start_x":212,
+			"start_x":210,
 			"start_y":97,
 			"end_x":249,
 			"end_y":121,
@@ -239,10 +239,10 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":2
+			"fraction_digits":1
 		},
 		{
-			"start_x":213,
+			"start_x":210,
 			"start_y":54,
 			"end_x":249,
 			"end_y":80,
@@ -288,7 +288,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":2
+			"fraction_digits":1
 		},
 		{
 			"start_x":50,
