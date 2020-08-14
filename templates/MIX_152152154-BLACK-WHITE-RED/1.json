@@ -45,8 +45,8 @@
 		},
 		{
 			"start_x":2,
-			"start_y":36,
-			"end_x":80,
+			"start_y":10,
+			"end_x":73,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemName",
