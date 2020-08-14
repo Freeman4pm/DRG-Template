@@ -21,7 +21,7 @@
 	"screen_block":[
 		{
 			"start_x":70,
-			"start_y":0,
+			"start_y":3,
 			"end_x":170,
 			"end_y":50,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -113,7 +113,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":78,
+			"start_x":82,
 			"start_y":61,
 			"end_x":191,
 			"end_y":111,
@@ -145,7 +145,7 @@
 		},
 		{
 			"start_x":210,
-			"start_y":75,
+			"start_y":80,
 			"end_x":249,
 			"end_y":103,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -194,7 +194,7 @@
 		},
 		{
 			"start_x":210,
-			"start_y":97,
+			"start_y":102,
 			"end_x":249,
 			"end_y":121,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -243,7 +243,7 @@
 		},
 		{
 			"start_x":210,
-			"start_y":54,
+			"start_y":59,
 			"end_x":249,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -678,7 +678,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  12",
+			"font_type":"Impact regular  10",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
