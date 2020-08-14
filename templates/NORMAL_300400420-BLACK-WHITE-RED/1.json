@@ -168,7 +168,7 @@
 			"end_x":201,
 			"end_y":220,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"price1Description",
+			"content_title":"description",
 			"content_value":"Text",
 			"custom_content_value":"Text",
 			"content_color":"BLACK",
