@@ -554,14 +554,14 @@
 			"text_decoration":"underline"
 		},
 		{
-			"start_x":115,
+			"start_x":110,
 			"start_y":0,
 			"end_x":249,
 			"end_y":21,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"3  halen = 1  betalen  ",
-			"custom_content_value":"3  halen = 1  betalen  ",
+			"content_value":"3  halen = 1  betalen",
+			"custom_content_value":"3  halen = 1  betalen",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":true,
