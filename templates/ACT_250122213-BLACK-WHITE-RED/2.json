@@ -40,10 +40,10 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($itemName.length()>20)
+#if($itemName.length()>18)
 			"font_type":"Impact regular  10",
 #else
-			"font_type":"Impact regular  12",
+			"font_type":"Impact regular  13",
 #end
 			"auto_wrap":false,
 			"auto_scale":false,
@@ -145,7 +145,7 @@
 			"font_type":"CODE128"
 		},
 		{
-			"start_x":118,
+			"start_x":120,
 			"start_y":84,
 			"end_x":146,
 			"end_y":99,
@@ -206,133 +206,12 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-{
-                        "start_x":3,
-                        "start_y":95,
-                        "end_x":100,
-                        "end_y":120,
-                        "content_type":"CONTENT_TYPE_TEXT",
-                        "content_title":"level1CategoryName",
-                        "content_value":"00000",
-			"content_color":"WHITE",
-                        "content_background_color":"RED",
-                        "content_reverse":false,
-                        "content_alignment":"left",
-                        "content_vertical_alignment":"top",
-                        "background_transparent":true,
-                        "border":false,
-                        "corner_width":0,
-                        "corner_height":0,
-                        "rotate":0,
-                        "line_stroke":1,
-                        "visible":true,
-                        "font_type":"UniversLTStd regular  6",
-                        "auto_wrap":true,
-                        "auto_scale":false,
-                        "auto_scale_width":false,
-                        "auto_narrow_width":false,
-                        "auto_stretch_height":false,
-                        "split_by_space":false,
-                        "line_spacing":5,
-                        "text_decoration":"none"
-                },
- {
-                        "start_x":25,
-                        "start_y":95,
-                        "end_x":100,
-                        "end_y":120,
-                        "content_type":"CONTENT_TYPE_TEXT",
-                        "content_title":"level2CategoryName",
-                        "content_value":"00000",
-                        "content_color":"WHITE",
-                        "content_background_color":"RED",
-                        "content_reverse":false,
-                        "content_alignment":"left",
-                        "content_vertical_alignment":"top",
-                        "background_transparent":true,
-                        "border":false,
-                        "corner_width":0,
-                        "corner_height":0,
-                        "rotate":0,
-                        "line_stroke":1,
-                        "visible":true,
-                        "font_type":"UniversLTStd regular  6",
-                        "auto_wrap":true,
-                        "auto_scale":false,
-                        "auto_scale_width":false,
-                        "auto_narrow_width":false,
-                        "auto_stretch_height":false,
-                        "split_by_space":false,
-                        "line_spacing":5,
-                        "text_decoration":"none"
-                },
-
- {
-                        "start_x":60,
-                        "start_y":95,
-                        "end_x":100,
-                        "end_y":120,
-                        "content_type":"CONTENT_TYPE_TEXT",
-                        "content_title":"level3CategoryName",
-                        "content_value":"00000",
-                        "content_color":"WHITE",
-                        "content_background_color":"RED",
-                        "content_reverse":false,
-                        "content_alignment":"left",
-                        "content_vertical_alignment":"top",
-                        "background_transparent":true,
-                        "border":false,
-                        "corner_width":0,
-                        "corner_height":0,
-                        "rotate":0,
-                        "line_stroke":1,
-                        "visible":true,
-                        "font_type":"UniversLTStd regular  6",
-                        "auto_wrap":true,
-                        "auto_scale":false,
-                        "auto_scale_width":false,
-                        "auto_narrow_width":false,
-                        "auto_stretch_height":false,
-                        "split_by_space":false,
-                        "line_spacing":5,
-                        "text_decoration":"none"
-                },
- {
-                        "start_x":85,
-                        "start_y":95,
-                        "end_x":120,
-                        "end_y":120,
-                        "content_type":"CONTENT_TYPE_TEXT",
-                        "content_title":"level4CategoryName",
-                        "content_value":"00000",
-                        "content_color":"WHITE",
-                        "content_background_color":"RED",
-                        "content_reverse":false,
-                        "content_alignment":"left",
-                        "content_vertical_alignment":"top",
-                        "background_transparent":true,
-                        "border":false,
-                        "corner_width":0,
-                        "corner_height":0,
-                        "rotate":0,
-                        "line_stroke":1,
-                        "visible":true,
-                        "font_type":"UniversLTStd regular  6",
-                        "auto_wrap":true,
-                        "auto_scale":false,
-                        "auto_scale_width":false,
-                        "auto_narrow_width":false,
-                        "auto_stretch_height":false,
-                        "split_by_space":false,
-                        "line_spacing":5,
-                        "text_decoration":"none"
-                },
 #if($itemStatus == "Y")
 		{
 			"start_x":1,
-			"start_y":80,
+			"start_y":84,
 			"end_x":87,
-			"end_y":94,
+			"end_y":98,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"biologisch",
@@ -360,7 +239,7 @@
 			"text_decoration":"none"
 		},
 #end
-#set($price2_s = $util.toString($price2))
+#set($price2_s = $util.toString($price1))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -387,7 +266,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":145,
 			"start_y":1,
 			"end_x":210,
@@ -427,7 +306,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":212,
 			"start_y":32,
 			"end_x":249,
@@ -467,7 +346,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":212,
 			"start_y":20,
 			"end_x":249,
@@ -667,14 +546,14 @@
 			"text_decoration":"underline"
 		},
 		{
-			"start_x":97,
+			"start_x":114,
 			"start_y":0,
 			"end_x":249,
 			"end_y":21,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"halen = 1 betalen  ",
-			"custom_content_value":"halen = 1 betalen  ",
+			"content_value":"halen = 1  betalen  ",
+			"custom_content_value":"halen = 1  betalen  ",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":true,
@@ -729,7 +608,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":178,
+			"start_x":176,
 			"start_y":21,
 			"end_x":193,
 			"end_y":45,
