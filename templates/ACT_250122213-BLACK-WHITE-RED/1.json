@@ -85,6 +85,8 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+	#set($sizeParts = $description.split("."))
+	#foreach($part in $sizeParts)
 		{
 			"start_x":89,
 			"start_y":84,
@@ -93,8 +95,8 @@
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 	#if($unit == 'GR' || $unit == 'ML')
-	#set($sizeParts = $description.split("."))
-			"content_value":$sizeParts,
+
+			"content_value":$part,
 	#else
 			"content_value":$description,
 	#end
@@ -121,6 +123,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+	#end
 		{
 			"start_x":0,
 			"start_y":104,
@@ -551,7 +554,7 @@
 			"text_decoration":"underline"
 		},
 		{
-			"start_x":110,
+			"start_x":115,
 			"start_y":0,
 			"end_x":249,
 			"end_y":21,
