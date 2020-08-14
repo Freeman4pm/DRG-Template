@@ -322,7 +322,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":202,
+			"start_x":212,
 			"start_y":21,
 			"end_x":235,
 			"end_y":42,
@@ -353,7 +353,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":202,
+			"start_x":212,
 			"start_y":5,
 			"end_x":249,
 			"end_y":19,
@@ -596,14 +596,14 @@
 			"font_type":"UniversLTStd regular  10"
 		},
 		{
-			"start_x":109,
+			"start_x":158,
 			"start_y":6,
 			"end_x":210,
 			"end_y":56,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"thtExceedanceIndicator",
-			"custom_content_value":"thtExceedanceIndicator",
+			"content_value":"thtExId",
+			"custom_content_value":"thtExId",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
@@ -616,7 +616,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  7",
+			"font_type":"Impact regular  10",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -627,14 +627,14 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":108,
+			"start_x":158,
 			"start_y":25,
 			"end_x":194,
 			"end_y":75,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"countReasonCode",
-			"custom_content_value":"countReasonCode",
+			"content_value":"countRsCode",
+			"custom_content_value":"countRsCode",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
@@ -647,7 +647,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  7",
+			"font_type":"Impact regular  10",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -720,7 +720,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":139,
+			"start_x":130,
 			"start_y":102,
 			"end_x":227,
 			"end_y":121,
