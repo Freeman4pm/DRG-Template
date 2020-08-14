@@ -306,10 +306,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":157,
-			"start_y":2,
-			"end_x":212,
-			"end_y":23,
+			"start_x":167,
+			"start_y":8,
+			"end_x":232,
+			"end_y":28,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"per stuk",
@@ -483,10 +483,10 @@
 			"text_decoration":"none"
 		},
 {
-			"start_x":200,
-			"start_y":3,
+			"start_x":210,
+			"start_y":8,
 			"end_x":249,
-			"end_y":23,
+			"end_y":28,
 			"content_type":"CONTENT_TYPE_NUMBER",
 			"content_title":"price1",
 			"content_value":"0",
