@@ -20,7 +20,7 @@
 	"width":250,
 	"screen_block":[
 		{
-			"start_x":2,
+			"start_x":8,
 			"start_y":26,
 			"end_x":146,
 			"end_y":52,
@@ -55,7 +55,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":3,
+			"start_x":8,
 			"start_y":69,
 			"end_x":146,
 			"end_y":85,
@@ -86,6 +86,7 @@
 			"text_decoration":"none"
 		},
 	#set($sizeParts = $description.split("."))
+	#foreach($part in $sizeParts)
 		{
 			"start_x":89,
 			"start_y":84,
@@ -117,6 +118,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+	#end
 		{
 			"start_x":0,
 			"start_y":104,
@@ -177,7 +179,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":2,
+			"start_x":8,
 			"start_y":46,
 			"end_x":180,
 			"end_y":63,
@@ -516,7 +518,7 @@
 		},
 #end
 		{
-			"start_x":2,
+			"start_x":8,
 			"start_y":0,
 			"end_x":74,
 			"end_y":30,
