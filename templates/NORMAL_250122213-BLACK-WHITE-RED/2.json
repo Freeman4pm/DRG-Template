@@ -262,7 +262,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  12",
+			"font_type":"UniversLTStd regular  10",
 			"font_size_script":12,
 			"number_script":"sub",
 			"font_type_script":"UniversLTStd regular  10",
@@ -354,7 +354,7 @@
 		},
 		{
 			"start_x":202,
-			"start_y":0,
+			"start_y":5,
 			"end_x":249,
 			"end_y":19,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -593,7 +593,7 @@
 			"format":"YMD",
 			"separator":"/",
 			"background_fill_mode":"content",
-			"font_type":"Impact regular  10"
+			"font_type":"UniversLTStd regular  10"
 		},
 		{
 			"start_x":109,
