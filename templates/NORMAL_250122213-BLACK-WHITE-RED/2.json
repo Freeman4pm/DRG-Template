@@ -292,7 +292,7 @@
 		},
 		{
 			"start_x":50,
-			"start_y":79,
+			"start_y":81,
 			"end_x":150,
 			"end_y":99,
 			"content_type":"CONTENT_TYPE_TEXT",
