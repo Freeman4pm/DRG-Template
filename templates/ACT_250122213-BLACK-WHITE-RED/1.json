@@ -94,7 +94,7 @@
 			"content_title":"NONE",
 	#if($unit == 'GR' || $unit == 'ML')
 	#set($sizeParts = $description.split("."))
-			"content_value":$sizeParts.get(0),
+			"content_value":$sizeParts,
 	#else
 			"content_value":$description,
 	#end
