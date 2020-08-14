@@ -96,7 +96,7 @@
 			"content_title":"NONE",
 	#if($unit == 'GR' || $unit == 'ML')
 
-			"content_value":$part,
+			"content_value":"100",
 	#else
 			"content_value":$description,
 	#end
@@ -114,7 +114,7 @@
 			"line_stroke":1,
 			"visible":true,
 			"font_type":"UniversLTStd regular  9",
-			"auto_wrap":true,
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
