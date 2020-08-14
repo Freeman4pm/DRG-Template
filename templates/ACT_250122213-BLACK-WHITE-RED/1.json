@@ -94,12 +94,7 @@
 			"end_y":99,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-	#if($unit == 'GR' or $unit == 'ML')
-
-			"content_value":"100",
-	#else
 			"content_value":$description,
-	#end
 			"custom_content_value":"150",
 			"content_color":"WHITE",
 			"content_background_color":"BLACK",
