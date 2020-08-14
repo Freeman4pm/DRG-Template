@@ -94,7 +94,7 @@
 			"end_y":99,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-	#if($unit == 'GR' || $unit == 'ML')
+	#if($unit == 'GR' or $unit == 'ML')
 
 			"content_value":"100",
 	#else
