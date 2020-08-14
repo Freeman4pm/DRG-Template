@@ -86,7 +86,6 @@
 			"text_decoration":"none"
 		},
 	#set($sizeParts = $description.split("."))
-	#foreach($part in $sizeParts)
 		{
 			"start_x":89,
 			"start_y":84,
@@ -118,7 +117,6 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-	#end
 		{
 			"start_x":0,
 			"start_y":104,
