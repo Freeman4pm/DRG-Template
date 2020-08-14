@@ -25,7 +25,7 @@
 			"end_x":170,
 			"end_y":50,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
+			"content_title":"level1CategoryName",
 			"content_value":"Text",
 			"custom_content_value":"Text",
 			"content_color":"BLACK",
