@@ -239,7 +239,7 @@
 			"text_decoration":"none"
 		},
 #end
-#set($price2_s = $util.toString($price2))
+#set($price2_s = $util.toString($price1))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -266,7 +266,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":145,
 			"start_y":1,
 			"end_x":210,
@@ -306,7 +306,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":212,
 			"start_y":32,
 			"end_x":249,
@@ -346,7 +346,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":212,
 			"start_y":20,
 			"end_x":249,
