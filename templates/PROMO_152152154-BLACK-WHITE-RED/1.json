@@ -108,7 +108,7 @@
 		{
 			"start_x":1,
 			"start_y":135,
-			"end_x":80,
+			"end_x":77,
 			"end_y":151,
 			"content_type":"CONTENT_TYPE_BARCODE",
 			"content_title":"sku",
