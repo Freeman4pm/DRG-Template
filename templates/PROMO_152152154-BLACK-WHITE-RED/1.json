@@ -107,7 +107,7 @@
 		},
 		{
 			"start_x":2,
-			"start_y":135,
+			"start_y":130,
 			"end_x":74,
 			"end_y":151,
 			"content_type":"CONTENT_TYPE_BARCODE",
@@ -126,7 +126,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"bar_height":16,
+			"bar_height":20,
 			"strike_through":true,
 			"human_readable":"none",
 			"human_readable_font_type":"Bebas Regular 12",
