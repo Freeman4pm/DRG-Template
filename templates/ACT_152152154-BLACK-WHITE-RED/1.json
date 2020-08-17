@@ -82,9 +82,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":2,
+			"start_x":0,
 			"start_y":137,
-			"end_x":74,
+			"end_x":78,
 			"end_y":150,
 			"content_type":"CONTENT_TYPE_BARCODE",
 			"content_title":"sku",
