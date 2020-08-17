@@ -40,9 +40,9 @@
 			"visible":true
 		},
 		{
-			"start_x":2,
+			"start_x":0,
 			"start_y":10,
-			"end_x":73,
+			"end_x":78,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"itemName",
