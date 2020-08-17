@@ -448,7 +448,14 @@
 		},
 		{
 			"start_x":3,
+#if($util.strlen($itemName) < 13)
+			"start_y":41,
+#elseif($util.strlen($itemName) < 26)
+			"start_y":61,
+#else
 			"start_y":81,
+#end
+
 			"end_x":74,
 			"end_y":100,
 			"content_type":"CONTENT_TYPE_TEXT",
