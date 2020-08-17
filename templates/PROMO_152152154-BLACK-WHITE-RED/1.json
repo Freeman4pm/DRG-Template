@@ -106,9 +106,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":2,
-			"start_y":130,
-			"end_x":74,
+			"start_x":1,
+			"start_y":135,
+			"end_x":80,
 			"end_y":151,
 			"content_type":"CONTENT_TYPE_BARCODE",
 			"content_title":"sku",
@@ -126,7 +126,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"bar_height":20,
+			"bar_height":13,
 			"strike_through":true,
 			"human_readable":"none",
 			"human_readable_font_type":"Bebas Regular 12",
