@@ -21,7 +21,7 @@
 	"screen_block":[
 		{
 			"start_x":2,
-			"start_y":36,
+			"start_y":33,
 			"end_x":73,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -47,7 +47,7 @@
 			"auto_narrow_width":false,
 			"auto_stretch_height":false,
 			"split_by_space":false,
-			"line_spacing":1,
+			"line_spacing":0,
 			"text_decoration":"none"
 		},
 		{
@@ -305,7 +305,7 @@
 		},
 		{
 			"start_x":3,
-			"start_y":72,
+			"start_y":70,
 			"end_x":74,
 			"end_y":98,
 			"content_type":"CONTENT_TYPE_TEXT",
