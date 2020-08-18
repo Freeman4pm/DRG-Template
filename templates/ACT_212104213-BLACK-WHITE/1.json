@@ -200,7 +200,7 @@
 		},
 #end
 		{
-			"start_x":0,
+			"start_x":7,
 			"start_y":57,
 			"end_x":126,
 			"end_y":68,
@@ -602,9 +602,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":138,
+			"start_x":144,
 			"start_y":19,
-			"end_x":158,
+			"end_x":170,
 			"end_y":35,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
