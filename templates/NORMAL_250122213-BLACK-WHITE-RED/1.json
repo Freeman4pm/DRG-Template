@@ -111,7 +111,7 @@
 		},
 #set($pack_int = $description.split('\.')[0])
 		{
-			"start_x":89,
+			"start_x":95,
 			"start_y":84,
 			"end_x":123,
 			"end_y":99,
