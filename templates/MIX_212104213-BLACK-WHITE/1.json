@@ -254,7 +254,8 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($type = $description.substring(0, 3))
+#set($pack = $util.escapeJson(${description}))
+#set($pack_int = $pack.split('.')[0])
 		{
 			"start_x":0,
 			"start_y":78,
@@ -262,7 +263,7 @@
 			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"$type",
+			"content_value":"$pack_int",
 			"custom_content_value":"",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
