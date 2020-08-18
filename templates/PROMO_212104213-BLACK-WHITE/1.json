@@ -602,8 +602,8 @@
 			"diagonal_type":"VERTICAL"
 		},
 		{
-			"start_x":167,
-			"start_y":91,
+			"start_x":160,
+			"start_y":85,
 			"end_x":208,
 			"end_y":103,
 			"content_type":"CONTENT_TYPE_TEXT",
