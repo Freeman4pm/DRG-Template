@@ -632,7 +632,7 @@
 			"content_value":"Fairtrade",
 #elseif($saleMode == "22" or $saleMode == "3022")
 			"content_value":"UTZ",
-#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005")
+#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005" or $saleMode == "4010")
 			"content_value":"Vers",
 #elseif($saleMode == "4")
 			"content_value":"Vis",
