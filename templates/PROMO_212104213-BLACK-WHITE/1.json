@@ -397,13 +397,13 @@
 			"visible":true,
 #if($price2>=10)
 			"start_x":178,
-			"start_y":59,
+			"start_y":49,
 			"end_x":210,
 			"end_y":82,
 			"font_type":"JanBold 11",
 #else
 			"start_x":175,
-			"start_y":58,
+			"start_y":48,
 			"end_x":210,
 			"end_y":80,
 			"font_type":"JanBold 14",
@@ -766,7 +766,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":168,
+			"start_x":165,
 			"start_y":21,
 			"end_x":190,
 			"end_y":40,
@@ -786,7 +786,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  13",
+			"font_type":"Impact regular  15",
 			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
