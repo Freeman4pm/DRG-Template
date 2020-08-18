@@ -736,9 +736,9 @@
 		},
 		{
 			"start_x":130,
-			"start_y":25,
+			"start_y":27,
 			"end_x":208,
-			"end_y":42,
+			"end_y":50,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"bij           stuks",
