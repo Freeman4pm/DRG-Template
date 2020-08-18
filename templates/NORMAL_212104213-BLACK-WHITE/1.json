@@ -263,7 +263,7 @@
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 #if($unit == "GR" or $unit == "ML")
-			"content_value":"$pack_int",
+			"content_value":"AA",
 #else
 			"content_value":$description,
 #end
