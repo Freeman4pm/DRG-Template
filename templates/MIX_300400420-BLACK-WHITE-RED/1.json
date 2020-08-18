@@ -353,7 +353,7 @@
 			"visible":true,
 #if($price_mix>=10)
 			"start_x":346,
-			"start_y":226,
+			"start_y":223,
 			"end_x":390,
 			"end_y":280,
 			"font_type":"JanBold 22",
