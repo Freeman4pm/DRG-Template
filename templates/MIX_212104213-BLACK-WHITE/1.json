@@ -285,7 +285,8 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($price2_s = $util.toString($price2))
+#set($price_mix = $price1 * $price1Description)
+#set($price2_s = $util.toString($price_mix))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -311,7 +312,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price_mix>=10)
 			"start_x":137,
 			"start_y":31,
 			"end_x":177,
@@ -351,7 +352,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price_mix>=10)
 			"start_x":178,
 			"start_y":31,
 			"end_x":207,
@@ -390,7 +391,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price_mix>=10)
 			"start_x":178,
 			"start_y":59,
 			"end_x":210,
@@ -450,7 +451,7 @@
 			"content_value":"Fairtrade",
 #elseif($saleMode == "22" or $saleMode == "3022")
 			"content_value":"UTZ",
-#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005")
+#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005" or $saleMode == "4010")
 			"content_value":"Vers",
 #elseif($saleMode == "4")
 			"content_value":"Vis",
@@ -597,13 +598,13 @@
 			"diagonal_type":"VERTICAL"
 		},
 		{
-			"start_x":187,
+			"start_x":167,
 			"start_y":91,
 			"end_x":208,
 			"end_y":103,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"stuk",
+			"content_value":"per stuk",
 			"custom_content_value":"stuk",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
@@ -681,8 +682,8 @@
 			"diagonal_type":"HORIZONTAL"
 		},
 		{
-			"start_x":131,
-			"start_y":2,
+			"start_x":136,
+			"start_y":4,
 			"end_x":177,
 			"end_y":22,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -712,8 +713,8 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":173,
-			"start_y":2,
+			"start_x":178,
+			"start_y":4,
 			"end_x":211,
 			"end_y":16,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -762,13 +763,13 @@
 		},
 		{
 			"start_x":130,
-			"start_y":23,
-			"end_x":208,
+			"start_y":25,
+			"end_x":203,
 			"end_y":42,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"bij           stuks",
-			"custom_content_value":"bij           stuks",
+			"content_value":"VOOR",
+			"custom_content_value":"VOOR",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":true,
@@ -781,7 +782,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  10",
+			"font_type":"Impact regular  12",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
@@ -792,8 +793,8 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":165,
-			"start_y":21,
+			"start_x":155,
+			"start_y":25,
 			"end_x":190,
 			"end_y":40,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -812,7 +813,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  11",
+			"font_type":"Impact regular  12",
 			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
