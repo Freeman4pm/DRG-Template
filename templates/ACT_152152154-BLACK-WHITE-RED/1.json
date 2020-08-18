@@ -306,7 +306,7 @@
 		{
 			"start_x":3,
 
-#elseif($util.strlen($itemName) < 26)
+#if($util.strlen($itemName) < 26)
 			"start_y":61,
 #else
 			"start_y":81,
