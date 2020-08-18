@@ -691,7 +691,7 @@
 #if($price_mix>=10)
 			"start_x":145,
 			"start_y":1,
-			"end_x":210,
+			"end_x":220,
 			"end_y":92,
 			"font_type":"JanBold 23",
 #else
@@ -729,7 +729,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price_mix>=10)
-			"start_x":212,
+			"start_x":222,
 			"start_y":32,
 			"end_x":249,
 			"end_y":80,
@@ -769,7 +769,7 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price_mix>=10)
-			"start_x":212,
+			"start_x":222,
 			"start_y":20,
 			"end_x":249,
 			"end_y":93,
