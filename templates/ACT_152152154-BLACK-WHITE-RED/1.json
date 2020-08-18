@@ -47,7 +47,7 @@
 			"auto_narrow_width":false,
 			"auto_stretch_height":false,
 			"split_by_space":false,
-			"line_spacing":5,
+			"line_spacing":1,
 			"text_decoration":"none"
 		},
 		{
@@ -306,7 +306,7 @@
 		{
 			"start_x":3,
 
-#if($util.strlen($itemName) < 26)
+#if($util.strlen($itemName) < 10)
 			"start_y":61,
 #else
 			"start_y":81,
@@ -336,7 +336,7 @@
 			"auto_narrow_width":false,
 			"auto_stretch_height":false,
 			"split_by_space":false,
-			"line_spacing":5,
+			"line_spacing":1,
 			"text_decoration":"none"
 		},
 #if($itemStatus == 'Y')
