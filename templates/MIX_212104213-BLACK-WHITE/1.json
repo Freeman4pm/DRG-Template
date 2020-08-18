@@ -314,15 +314,15 @@
 			"visible":true,
 #if($price_mix>=10)
 			"start_x":137,
-			"start_y":21,
+			"start_y":26,
 			"end_x":177,
-			"end_y":73,
+			"end_y":78,
 			"font_type":"JanBold regular  19",
 #else
 			"start_x":136,
-			"start_y":31,
+			"start_y":36,
 			"end_x":171,
-			"end_y":81,
+			"end_y":86,
 			"font_type":"JanBold regular  24",
 #end
 			"auto_wrap":false,
@@ -354,15 +354,15 @@
 			"visible":true,
 #if($price_mix>=10)
 			"start_x":178,
-			"start_y":21,
+			"start_y":26,
 			"end_x":207,
-			"end_y":73,
+			"end_y":78,
 			"font_type":"JanBold regular  22",
 #else
 			"start_x":172,
-			"start_y":33,
+			"start_y":38,
 			"end_x":207,
-			"end_y":81,
+			"end_y":86,
 			"font_type":"JanBold regular  25",
 #end
 			"auto_wrap":false,
@@ -393,15 +393,15 @@
 			"visible":true,
 #if($price_mix>=10)
 			"start_x":178,
-			"start_y":49,
+			"start_y":54,
 			"end_x":210,
-			"end_y":92,
+			"end_y":97,
 			"font_type":"JanBold 11",
 #else
 			"start_x":175,
-			"start_y":48,
+			"start_y":53,
 			"end_x":210,
-			"end_y":90,
+			"end_y":95,
 			"font_type":"JanBold 14",
 #end
 			"auto_wrap":false,
