@@ -190,14 +190,19 @@
 			"text_decoration":"none"
 		},
 #end
+#set($pack_int = $description.split('\.')[0])
 		{
 			"start_x":4,
 			"start_y":193,
 			"end_x":40,
 			"end_y":220,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"description",
-			"content_value":"Text",
+			"content_title":"NONE",
+#if($unit == "GR" or $unit == "ML")
+			"content_value":"$pack_int",
+#else
+			"content_value":$description,
+#end
 			"custom_content_value":"Text",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
