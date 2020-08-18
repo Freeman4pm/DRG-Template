@@ -353,9 +353,9 @@
 			"visible":true,
 #if($price_mix>=10)
 			"start_x":346,
-			"start_y":216,
+			"start_y":226,
 			"end_x":390,
-			"end_y":270,
+			"end_y":280,
 			"font_type":"JanBold 22",
 #else
 			"start_x":335,
@@ -393,9 +393,9 @@
 			"visible":true,
 #if($price_mix>=10)
 			"start_x":346,
-			"start_y":216,
+			"start_y":206,
 			"end_x":399,
-			"end_y":285,
+			"end_y":275,
 			"font_type":"JanBold regular  42",
 #else
 			"start_x":333,
