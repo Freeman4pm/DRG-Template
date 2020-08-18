@@ -254,7 +254,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($pack = $Integer.parseInt($description))
+#set($pack = $Integer.toInteger($description))
 		{
 			"start_x":67,
 			"start_y":78,
