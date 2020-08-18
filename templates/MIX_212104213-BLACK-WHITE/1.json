@@ -315,7 +315,7 @@
 #if($price_mix>=10)
 			"start_x":137,
 			"start_y":26,
-			"end_x":177,
+			"end_x":187,
 			"end_y":78,
 			"font_type":"JanBold regular  19",
 #else
@@ -353,9 +353,9 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price_mix>=10)
-			"start_x":178,
+			"start_x":188,
 			"start_y":26,
-			"end_x":207,
+			"end_x":211,
 			"end_y":78,
 			"font_type":"JanBold regular  22",
 #else
@@ -392,9 +392,9 @@
 			"line_stroke":1,
 			"visible":true,
 #if($price_mix>=10)
-			"start_x":178,
+			"start_x":188,
 			"start_y":54,
-			"end_x":210,
+			"end_x":211,
 			"end_y":97,
 			"font_type":"JanBold 11",
 #else
