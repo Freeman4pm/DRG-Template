@@ -133,14 +133,19 @@
 			"auto_scale":true,
 			"font_type":"CODE128"
 		},
+#set($pack_int = $description.split('\.')[0])
 		{
 			"start_x":37,
 			"start_y":121,
 			"end_x":61,
 			"end_y":134,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"description",
-			"content_value":"250",
+			"content_title":"NONE",
+#if($unit == "GR" or $unit == "ML")
+			"content_value":"$pack_int",
+#else
+			"content_value":$description,
+#end
 			"custom_content_value":"250",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
