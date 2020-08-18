@@ -255,7 +255,7 @@
 			"text_decoration":"none"
 		},
 #set($pack = $util.escapeJson(${description}))
-#set($pack_int = $pack.split('.')[0])
+#set($pack_int = $description.split('.')[0])
 		{
 			"start_x":0,
 			"start_y":78,
