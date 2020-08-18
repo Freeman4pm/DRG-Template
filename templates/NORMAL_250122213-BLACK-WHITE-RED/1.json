@@ -818,7 +818,7 @@
 			"content_value":"Fairtrade",
 #elseif($saleMode == "22" or $saleMode == "3022")
 			"content_value":"UTZ",
-#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005")
+#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005" or $saleMode == "4010")
 			"end_x":149,
 			"font_type":"Impact regular  12",
 			"content_value":"Vers",
