@@ -212,7 +212,7 @@
 			"line_stroke":1,
 			"visible":true,
 			"font_type":"UniversLTStd regular  14",
-			"auto_wrap":true,
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
@@ -283,8 +283,8 @@
 			"line_spacing":5,
 			"text_decoration":"underline"
 		},
-
-#set($price2_s = $util.toString($price2))
+#set($price_mix = $price1 * $price1Description)
+#set($price2_s = $util.toString($price_mix))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -314,7 +314,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price_mix>=10)
 			"font_type":"JanBold regular  40",
 #else
 			"font_type":"JanBold regular  46",
@@ -346,7 +346,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price_mix>=10)
 			"start_x":335,
 			"start_y":216,
 			"end_x":390,
@@ -389,7 +389,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price_mix>=10)
 			"font_type":"JanBold regular  42",
 #else
 			"font_type":"JanBold regular  49",
