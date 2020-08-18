@@ -216,7 +216,7 @@
 		{
 			"start_x":175,
 			"start_y":30,
-			"end_x":235,
+			"end_x":240,
 			"end_y":55,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -265,7 +265,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-			"font_type":"Impact regular  20",
+			"font_type":"Impact regular  18",
 			"auto_wrap":true,
 			"auto_scale":false,
 			"auto_scale_width":false,
