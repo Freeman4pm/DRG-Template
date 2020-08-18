@@ -215,7 +215,7 @@
 	
 		{
 			"start_x":175,
-			"start_y":30,
+			"start_y":25,
 			"end_x":240,
 			"end_y":55,
 			"content_type":"CONTENT_TYPE_TEXT",
