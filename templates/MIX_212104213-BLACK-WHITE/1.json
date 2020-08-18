@@ -254,7 +254,6 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($pack = $Integer.toInteger($price1))
 		{
 			"start_x":67,
 			"start_y":78,
@@ -262,7 +261,7 @@
 			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":$pack,
+			"content_value":$unit[0],
 			"custom_content_value":$description,
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
