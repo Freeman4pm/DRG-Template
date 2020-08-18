@@ -206,7 +206,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($price2_s = $util.toString($price2))
+#set($price2_s = $util.toString($price1))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -236,7 +236,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"font_type":"JanBold regular  50",
 #else
 			"font_type":"JanBold regular  60",
@@ -268,7 +268,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"start_x":295,
 			"start_y":180,
 			"end_x":380,
@@ -311,7 +311,7 @@
 			"rotate":0,
 			"line_stroke":1,
 			"visible":true,
-#if($price2>=10)
+#if($price1>=10)
 			"font_type":"JanBold regular  50",
 #else
 			"font_type":"JanBold regular  60",
