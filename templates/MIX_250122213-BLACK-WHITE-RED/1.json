@@ -216,7 +216,7 @@
 		{
 			"start_x":175,
 			"start_y":35,
-			"end_x":235,
+			"end_x":232,
 			"end_y":55,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
@@ -370,7 +370,7 @@
 		},
 		{
 			"start_x":144,
-			"start_y":57,
+			"start_y":59,
 			"end_x":158,
 			"end_y":73,
 			"content_type":"CONTENT_TYPE_TEXT",
