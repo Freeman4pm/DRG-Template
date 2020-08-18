@@ -182,12 +182,12 @@
 			"end_y":35,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":"halen   =   1 belalen",
-			"custom_content_value":"halen   =   1 belalen",
+			"content_value":"3  halen  =  1  belalen",
+			"custom_content_value":"3  halen  =  1 belalen",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":true,
-			"content_alignment":"right",
+			"content_alignment":"middle",
 			"content_vertical_alignment":"middle",
 			"background_transparent":false,
 			"border":false,
@@ -327,7 +327,7 @@
                         "line_spacing":5,
                         "text_decoration":"none"
                 },
-#set($price2_s = $util.toString($price2))
+#set($price2_s = $util.toString($price1))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
