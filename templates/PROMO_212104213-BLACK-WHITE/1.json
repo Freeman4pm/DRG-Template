@@ -254,14 +254,19 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#set($pack_int = $description.split('\.')[0])
 		{
 			"start_x":67,
 			"start_y":78,
 			"end_x":97,
 			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"description",
-			"content_value":"Text",
+			"content_title":"NONE",
+#if($unit == "GR" or $unit == "ML")
+			"content_value":"$pack_int",
+#else
+			"content_value":$description,
+#end
 			"custom_content_value":"Text",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
