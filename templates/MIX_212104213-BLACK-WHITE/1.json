@@ -254,7 +254,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($pack_int = $description.split('.')[0])
+#set($pack_int = $description.split(',')[0])
 		{
 			"start_x":0,
 			"start_y":78,
