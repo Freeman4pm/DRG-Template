@@ -262,7 +262,7 @@
 			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-			"content_value":$description.class.name,
+			"content_value":$description[3],
 			"custom_content_value":"",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
