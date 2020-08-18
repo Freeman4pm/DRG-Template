@@ -157,6 +157,7 @@
 			"font_type":"CODE128"
 		},
 #end
+#if($itemStatus == "Y")
 		{
 			"start_x":4,
 			"start_y":226,
@@ -188,13 +189,45 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":4,
 			"start_y":193,
 			"end_x":201,
 			"end_y":220,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"price1Description",
+			"content_title":"description",
+			"content_value":"Text",
+			"custom_content_value":"Text",
+			"content_color":"BLACK",
+			"content_background_color":"WHITE",
+			"content_reverse":false,
+			"content_alignment":"left",
+			"content_vertical_alignment":"top",
+			"background_transparent":false,
+			"border":false,
+			"corner_width":0,
+			"corner_height":0,
+			"rotate":0,
+			"line_stroke":1,
+			"visible":true,
+			"font_type":"UniversLTStd regular  14",
+			"auto_wrap":true,
+			"auto_scale":false,
+			"auto_scale_width":false,
+			"auto_narrow_width":false,
+			"auto_stretch_height":false,
+			"split_by_space":false,
+			"line_spacing":5,
+			"text_decoration":"none"
+		},
+		{
+			"start_x":50,
+			"start_y":193,
+			"end_x":201,
+			"end_y":220,
+			"content_type":"CONTENT_TYPE_TEXT",
+			"content_title":"unit",
 			"content_value":"Text",
 			"custom_content_value":"Text",
 			"content_color":"BLACK",
@@ -251,7 +284,7 @@
 			"text_decoration":"underline"
 		},
 
-#set($price2_s = $util.toString($price1))
+#set($price2_s = $util.toString($price2))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -826,7 +859,7 @@
 			"end_x":399,
 			"end_y":170,
 			"content_type":"CONTENT_TYPE_NUMBER",
-			"content_title":"price2",
+			"content_title":"price1",
 			"content_value":"0",
 			"custom_content_value":"0",
 			"content_color":"WHITE",
@@ -991,7 +1024,7 @@
 			"end_x":340,
 			"end_y":214,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
+			"content_title":"price1Description",
 			"content_value":"3",
 			"custom_content_value":"3",
 			"content_color":"WHITE",
