@@ -193,7 +193,7 @@
 		{
 			"start_x":4,
 			"start_y":193,
-			"end_x":201,
+			"end_x":40,
 			"end_y":220,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"description",
@@ -222,7 +222,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":50,
+			"start_x":45,
 			"start_y":193,
 			"end_x":201,
 			"end_y":220,
