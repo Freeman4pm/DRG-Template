@@ -186,6 +186,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#if($itemStatus == "Y")
 		{
 			"start_x":0,
 			"start_y":72,
@@ -217,14 +218,20 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
+#set($pack_int = $description.split('\.')[0])
 		{
 			"start_x":70,
 			"start_y":72,
 			"end_x":106,
 			"end_y":85,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"description",
-			"content_value":"Text",
+			"content_title":"NONE",
+#if($unit == "GR" or $unit == "ML")
+			"content_value":"$pack_int",
+#else
+			"content_value":$description,
+#end
 			"custom_content_value":"Text",
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
