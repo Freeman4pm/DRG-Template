@@ -254,7 +254,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
-#set($type = $description.class.name)
+#set($type = $description[3])
 		{
 			"start_x":0,
 			"start_y":78,
