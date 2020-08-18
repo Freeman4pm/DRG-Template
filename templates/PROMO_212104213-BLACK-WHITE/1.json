@@ -736,7 +736,7 @@
 		},
 		{
 			"start_x":130,
-			"start_y":23,
+			"start_y":25,
 			"end_x":208,
 			"end_y":42,
 			"content_type":"CONTENT_TYPE_TEXT",
