@@ -395,7 +395,7 @@
 			"start_x":114,
 			"start_y":53,
 			"end_x":230,
-			"end_y":82,
+			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"level2CategoryName",
 			"content_value":"0",
@@ -419,7 +419,7 @@
 			"auto_narrow_width":false,
 			"auto_stretch_height":false,
 			"split_by_space":false,
-			"line_spacing":5,
+			"line_spacing":0,
 			"text_decoration":"none"
 		},
 		{
