@@ -521,7 +521,7 @@
 			"end_x":281,
 			"end_y":22,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"rsrvTxt1",
+			"content_title":"rsrvTxt2",
 			"content_value":"0",
 			"custom_content_value":"0",
 			"content_color":"BLACK",
@@ -552,7 +552,7 @@
 			"end_x":281,
 			"end_y":45,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"rsrvTxt2",
+			"content_title":"rsrvTxt3",
 			"content_value":"0",
 			"custom_content_value":"0",
 			"content_color":"BLACK",
@@ -650,7 +650,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":1
+			"fraction_digits":0
 		},
 		{
 			"start_x":254,
@@ -699,7 +699,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":1
+			"fraction_digits":0
 		},
 		{
 			"start_x":253,
@@ -748,7 +748,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":1
+			"fraction_digits":0
 		}
 	]
 }
