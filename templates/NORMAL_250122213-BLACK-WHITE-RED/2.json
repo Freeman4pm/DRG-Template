@@ -72,7 +72,7 @@
 			"line_stroke":1,
 			"visible":true,
 			"font_type":"UniversLTStd regular  10",
-			"auto_wrap":true,
+			"auto_wrap":false,
 			"auto_scale":false,
 			"auto_scale_width":false,
 			"auto_narrow_width":false,
