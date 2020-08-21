@@ -650,7 +650,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":1
+			"fraction_digits":0
 		},
 		{
 			"start_x":123,
@@ -699,7 +699,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":1
+			"fraction_digits":0
 		},
 		{
 			"start_x":123,
@@ -748,7 +748,7 @@
 			"background_fill_mode":"content",
 			"text_decoration":"none",
 			"text_decoration_script":"none",
-			"fraction_digits":1
+			"fraction_digits":0
 		}
 	]
 }
