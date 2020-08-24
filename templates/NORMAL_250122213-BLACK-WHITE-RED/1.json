@@ -895,19 +895,19 @@
 			"end_x":149,
 			"font_type":"Impact regular  12",
 			"content_value":"In prijs verlaagd!",
-#elseif($saleMode == "3610")
+#elseif($saleMode == "3610" or $saleMode == "1610")
 			"end_x":149,
 			"font_type":"Impact regular  11",
 			"content_value":"LAAG SUIKER   LAAG VET",
-#elseif($saleMode == "3611")
+#elseif($saleMode == "3611" or $saleMode == "1611")
 			"end_x":149,
 			"font_type":"Impact regular  11",
 			"content_value":"LAAG SUIKER   HOOG VET",
-#elseif($saleMode == "3612")
+#elseif($saleMode == "3612" or $saleMode == "1612")
 			"end_x":149,
 			"font_type":"Impact regular  11",
 			"content_value":"HOOG SUIKER   LAAG VET",
-#elseif($saleMode == "3613")
+#elseif($saleMode == "3613" or $saleMode == "1613")
 			"end_x":149,
 			"font_type":"Impact regular  11",
 			"content_value":"HOOG SUIKER   HOOG VET",
