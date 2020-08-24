@@ -620,7 +620,7 @@
 
 		{
 			"start_x":160,
-			"start_y":21,
+			"start_y":19,
 			"end_x":193,
 			"end_y":45,
 			"content_type":"CONTENT_TYPE_TEXT",
