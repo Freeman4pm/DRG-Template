@@ -549,8 +549,9 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"underline"
-		},
+		}
 #if($promoReason != "")
+,
 		{
 			"start_x":110,
 			"start_y":0,
