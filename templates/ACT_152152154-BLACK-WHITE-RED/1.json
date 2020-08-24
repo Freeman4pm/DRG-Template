@@ -512,8 +512,9 @@
 			"text_decoration":"none",
 			"text_decoration_script":"none",
 			"fraction_digits":2
-		},
+		}
 #if($promoReason != "")
+,
 		{
 			"start_x":44,
 			"start_y":0,
