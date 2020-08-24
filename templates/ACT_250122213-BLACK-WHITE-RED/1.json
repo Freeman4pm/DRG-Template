@@ -244,7 +244,7 @@
 			"text_decoration":"none"
 		},
 #end
-#set($price2_s = $util.toString($price1))
+#set($price2_s = $util.toString($rsrvDec4))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -583,7 +583,7 @@
 			"text_decoration":"none"
 		}
 #end
-#if($price1Description != "")
+#if($rsrvInt1 > 0)
 ,
 		{
 			"start_x":160,
@@ -624,7 +624,7 @@
 			"end_x":193,
 			"end_y":45,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"price1Description",
+			"content_title":"rsrvInt1",
 			"content_value":"0",
 			"custom_content_value":"0",
 			"content_color":"WHITE",
