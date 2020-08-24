@@ -621,7 +621,7 @@
 			"auto_stretch_height":false,
 			"split_by_space":false,
 			"line_spacing":5,
-			"text_decoration":"none"
+			"text_decoration":"underline"
 		}
 #if($promoReason != "")
 		,
