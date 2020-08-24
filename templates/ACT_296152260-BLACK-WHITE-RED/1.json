@@ -424,7 +424,7 @@
 			"diagonal_type":"HORIZONTAL"
 		},
 
-#set($price2_s = $util.toString($price2))
+#set($price2_s = $util.toString($rsrvDec4))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 5))
 #set($price2_dec = $price2_s.substring($price_len - 4, $price_len - 2))
@@ -622,14 +622,16 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"none"
-		},
+		}
+#if($promoReason != "")
+		,
 		{
 			"start_x":137,
 			"start_y":1,
 			"end_x":294,
 			"end_y":23,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
+			"content_title":"promoReason",
 			"content_value":"  2 halen = 1 betalen",
 			"custom_content_value":"  2 halen = 1 betalen",
 			"content_color":"WHITE",
@@ -653,8 +655,10 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"none"
-		},
-				{
+		}
+#end
+,
+			{
 			"start_x":295,
 			"start_y":0,
 			"end_x":295,
