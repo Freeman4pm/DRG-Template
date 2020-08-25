@@ -709,6 +709,7 @@
 			"font_type":"Impact regular  11",
 			"content_value":"HOOG SUIKER   HOOG VET",
 #else
+			"font_type":"Impact regular  12",
 			"content_value":"",
 #end
 
