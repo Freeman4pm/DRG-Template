@@ -570,13 +570,14 @@
 			"line_spacing":5,
 			"text_decoration":"underline"
 		},
+#if($promoReason != "")
 		{
 			"start_x":98,
 			"start_y":0,
 			"end_x":211,
 			"end_y":16,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
+			"content_title":"promoReason",
 			"content_value":"3 halen = 1 betalen",
 			"custom_content_value":"3 halen = 1 betalen",
 			"content_color":"BLACK",
@@ -601,13 +602,14 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 		{
 			"start_x":144,
 			"start_y":19,
 			"end_x":170,
 			"end_y":35,
 			"content_type":"CONTENT_TYPE_TEXT",
-			"content_title":"NONE",
+			"content_title":"rsrvInt1",
 			"content_value":"3",
 			"custom_content_value":"3",
 			"content_color":"BLACK",
@@ -662,7 +664,9 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"underline"
-		},
+		}
+#if($rsrvInt1 > 0)
+,
 		{
 			"start_x":165,
 			"start_y":19,
@@ -694,5 +698,6 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		}
+#end
 	]
 }
