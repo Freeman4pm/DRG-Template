@@ -207,7 +207,7 @@
 		},
 		{
 			"start_x":212,
-			"start_y":36,
+			"start_y":40,
 			"end_x":235,
 			"end_y":62,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -238,7 +238,7 @@
 		},
 		{
 			"start_x":210,
-			"start_y":64,
+			"start_y":61,
 			"end_x":249,
 			"end_y":80,
 			"content_type":"CONTENT_TYPE_NUMBER",
@@ -572,7 +572,7 @@
 		},
 		{
 			"start_x":178,
-			"start_y":7,
+			"start_y":4,
 			"end_x":249,
 			"end_y":40,
 			"content_type":"CONTENT_TYPE_DATE",
@@ -629,7 +629,7 @@
 		},
 		{
 			"start_x":130,
-			"start_y":35,
+			"start_y":40,
 			"end_x":205,
 			"end_y":75,
 			"content_type":"CONTENT_TYPE_TEXT",
