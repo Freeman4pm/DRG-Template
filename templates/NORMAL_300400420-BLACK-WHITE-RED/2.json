@@ -392,7 +392,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":114,
+			"start_x":117,
 			"start_y":53,
 			"end_x":230,
 			"end_y":89,
@@ -423,7 +423,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":114,
+			"start_x":117,
 			"start_y":102,
 			"end_x":214,
 			"end_y":130,
@@ -485,9 +485,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":69,
+			"start_x":117,
 			"start_y":204,
-			"end_x":169,
+			"end_x":200,
 			"end_y":229,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"level5CategoryName",
