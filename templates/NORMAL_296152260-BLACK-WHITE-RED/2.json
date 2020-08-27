@@ -206,7 +206,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":79,
+			"start_x":92,
 			"start_y":2,
 			"end_x":104,
 			"end_y":22,
@@ -269,9 +269,9 @@
 		},
 		{
 			"start_x":156,
-			"start_y":42,
+			"start_y":47,
 			"end_x":249,
-			"end_y":70,
+			"end_y":75,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"countRsCode",
@@ -392,7 +392,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":45,
+			"start_x":92,
 			"start_y":93,
 			"end_x":70,
 			"end_y":115,
@@ -423,7 +423,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":79,
+			"start_x":92,
 			"start_y":24,
 			"end_x":134,
 			"end_y":46,
@@ -454,7 +454,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":84,
+			"start_x":92,
 			"start_y":47,
 			"end_x":109,
 			"end_y":69,
@@ -548,7 +548,7 @@
 		},
 		{
 			"start_x":256,
-			"start_y":45,
+			"start_y":48,
 			"end_x":281,
 			"end_y":65,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -578,9 +578,9 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":200,
+			"start_x":100,
 			"start_y":3,
-			"end_x":290,
+			"end_x":296,
 			"end_y":20,
 			"content_type":"CONTENT_TYPE_DATE",
 			"content_title":"expiryDate",
