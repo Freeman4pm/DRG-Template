@@ -175,10 +175,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":0,
-			"start_y":249,
-			"end_x":100,
-			"end_y":299,
+			"start_x":210,
+			"start_y":0,
+			"end_x":290,
+			"end_y":30,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"thtDate",
@@ -206,10 +206,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":222,
-			"start_y":0,
+			"start_x":210,
+			"start_y":30,
 			"end_x":342,
-			"end_y":50,
+			"end_y":60,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"thtExId",
@@ -217,7 +217,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -237,10 +237,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":216,
-			"start_y":47,
+			"start_x":210,
+			"start_y":77,
 			"end_x":342,
-			"end_y":97,
+			"end_y":107,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"countRsCode",
@@ -248,7 +248,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -268,7 +268,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":207,
+			"start_x":210,
 			"start_y":202,
 			"end_x":344,
 			"end_y":229,
@@ -279,7 +279,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -299,7 +299,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":218,
+			"start_x":210,
 			"start_y":153,
 			"end_x":344,
 			"end_y":180,
@@ -310,7 +310,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -330,7 +330,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":190,
+			"start_x":210,
 			"start_y":245,
 			"end_x":346,
 			"end_y":272,
@@ -341,7 +341,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -517,9 +517,9 @@
 		},
 		{
 			"start_x":351,
-			"start_y":3,
+			"start_y":33,
 			"end_x":399,
-			"end_y":31,
+			"end_y":61,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"rsrvTxt2",
 			"content_value":"0",
@@ -548,9 +548,9 @@
 		},
 		{
 			"start_x":351,
-			"start_y":49,
+			"start_y":79,
 			"end_x":399,
-			"end_y":77,
+			"end_y":107,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"rsrvTxt3",
 			"content_value":"0",
@@ -578,10 +578,10 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":73,
-			"start_y":254,
-			"end_x":173,
-			"end_y":279,
+			"start_x":300,
+			"start_y":3,
+			"end_x":399,
+			"end_y":30,
 			"content_type":"CONTENT_TYPE_DATE",
 			"content_title":"expiryDate",
 			"content_value":"1598002867406",
