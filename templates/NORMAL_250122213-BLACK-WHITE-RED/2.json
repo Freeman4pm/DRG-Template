@@ -20,7 +20,7 @@
 	"width":250,
 	"screen_block":[
 		{
-			"start_x":70,
+			"start_x":79,
 			"start_y":3,
 			"end_x":170,
 			"end_y":50,
@@ -51,7 +51,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":71,
+			"start_x":79,
 			"start_y":26,
 			"end_x":171,
 			"end_y":76,
@@ -113,7 +113,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":82,
+			"start_x":79,
 			"start_y":70,
 			"end_x":191,
 			"end_y":111,
@@ -144,7 +144,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":50,
+			"start_x":79,
 			"start_y":91,
 			"end_x":150,
 			"end_y":120,
