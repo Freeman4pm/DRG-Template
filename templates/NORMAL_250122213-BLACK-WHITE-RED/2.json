@@ -336,7 +336,7 @@
 		},
 		{
 			"start_x":210,
-			"start_y":102,
+			"start_y":105,
 			"end_x":249,
 			"end_y":121,
 			"content_type":"CONTENT_TYPE_NUMBER",
