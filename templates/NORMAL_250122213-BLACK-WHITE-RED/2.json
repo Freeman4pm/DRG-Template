@@ -540,7 +540,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":158,
+			"start_x":130,
 			"start_y":2,
 			"end_x":220,
 			"end_y":20,
@@ -571,7 +571,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":188,
+			"start_x":178,
 			"start_y":2,
 			"end_x":249,
 			"end_y":20,
@@ -597,7 +597,7 @@
 			"font_type":"UniversLTStd regular  10"
 		},
 		{
-			"start_x":158,
+			"start_x":130,
 			"start_y":16,
 			"end_x":205,
 			"end_y":56,
@@ -608,7 +608,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -628,7 +628,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":120,
+			"start_x":130,
 			"start_y":35,
 			"end_x":205,
 			"end_y":75,
@@ -639,7 +639,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -659,7 +659,7 @@
 			"text_decoration":"none"
 		},
 		{
-			"start_x":159,
+			"start_x":130,
 			"start_y":55,
 			"end_x":205,
 			"end_y":105,
@@ -670,7 +670,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -701,7 +701,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
@@ -732,7 +732,7 @@
 			"content_color":"BLACK",
 			"content_background_color":"WHITE",
 			"content_reverse":false,
-			"content_alignment":"right",
+			"content_alignment":"left",
 			"content_vertical_alignment":"top",
 			"background_transparent":true,
 			"border":false,
