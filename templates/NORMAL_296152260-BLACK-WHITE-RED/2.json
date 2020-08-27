@@ -394,7 +394,7 @@
 		{
 			"start_x":92,
 			"start_y":93,
-			"end_x":70,
+			"end_x":110,
 			"end_y":115,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"level5CategoryName",
