@@ -393,9 +393,9 @@
 		},
 		{
 			"start_x":0,
-			"start_y":81,
+			"start_y":87,
 			"end_x":42,
-			"end_y":99,
+			"end_y":100,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"thtDate",
@@ -424,9 +424,9 @@
 		},
 		{
 			"start_x":40,
-			"start_y":83,
+			"start_y":89,
 			"end_x":120,
-			"end_y":102,
+			"end_y":112,
 			"content_type":"CONTENT_TYPE_DATE",
 			"content_title":"expiryDate",
 			"content_value":"1597998199503",
