@@ -574,7 +574,7 @@
 			"start_x":178,
 			"start_y":7,
 			"end_x":249,
-			"end_y":20,
+			"end_y":40,
 			"content_type":"CONTENT_TYPE_DATE",
 			"content_title":"expiryDate",
 			"content_value":"1597404283795",
