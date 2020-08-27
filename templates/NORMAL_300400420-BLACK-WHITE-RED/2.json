@@ -579,7 +579,7 @@
 		},
 		{
 			"start_x":300,
-			"start_y":3,
+			"start_y":5,
 			"end_x":399,
 			"end_y":30,
 			"content_type":"CONTENT_TYPE_DATE",
