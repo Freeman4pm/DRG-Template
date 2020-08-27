@@ -580,7 +580,7 @@
 		{
 			"start_x":100,
 			"start_y":3,
-			"end_x":296,
+			"end_x":295,
 			"end_y":20,
 			"content_type":"CONTENT_TYPE_DATE",
 			"content_title":"expiryDate",
