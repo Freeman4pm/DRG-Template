@@ -207,7 +207,7 @@
 		},
 		{
 			"start_x":210,
-			"start_y":30,
+			"start_y":40,
 			"end_x":342,
 			"end_y":60,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -517,7 +517,7 @@
 		},
 		{
 			"start_x":351,
-			"start_y":33,
+			"start_y":43,
 			"end_x":399,
 			"end_y":61,
 			"content_type":"CONTENT_TYPE_TEXT",
