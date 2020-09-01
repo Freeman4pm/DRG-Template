@@ -134,7 +134,7 @@
 		{
 			"start_x":96,
 			"start_y":78,
-			"end_x":124,
+			"end_x":130,
 			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"unit",
@@ -262,7 +262,7 @@
 			"end_y":89,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-#if($unit == "GR" or $unit == "ML")
+#if($unit == "GR" or $unit == "ML" or $unit == "Gram")
 			"content_value":"$pack_int",
 #else
 			"content_value":$description,
