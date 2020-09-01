@@ -137,7 +137,7 @@
 			"end_y":134,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
-#if($unit == "GR" or $unit == "ML" or $unit == "Gram")
+#if($unit == "GR" or $unit == "ML" or $unit == "Gram" or $unit == "ST")
 			"content_value":"$pack_int",
 #else
 			"content_value":$description,
