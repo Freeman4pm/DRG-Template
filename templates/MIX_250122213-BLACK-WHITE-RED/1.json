@@ -426,6 +426,7 @@
 			"line_thickness":1,
 			"diagonal_type":"HORIZONTAL"
 		},
+#if($saleMode != 4101)
 		{
 			"start_x":114,
 			"start_y":90,
@@ -457,6 +458,7 @@
 			"line_spacing":5,
 			"text_decoration":"none"
 		},
+#end
 {
 			"start_x":210,
 			"start_y":7,
@@ -621,7 +623,7 @@
 #elseif($saleMode == "22" or $saleMode == "3022")
 			"font_type":"Impact regular  12",
 			"content_value":"UTZ",
-#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005" or $saleMode == "4010" or $saleMode == "4011" or $saleMode == "4012")
+#elseif($saleMode == "6" or $saleMode == "10" or $saleMode == "11" or $saleMode == "1111" or $saleMode == "1153" or $saleMode == "3010" or $saleMode == "3012" or $saleMode == "4005" or $saleMode == "4010" or $saleMode == "4101" or $saleMode == "4102")
 			"font_type":"Impact regular  12",
 			"content_value":"Vers",
 #elseif($saleMode == "4")
