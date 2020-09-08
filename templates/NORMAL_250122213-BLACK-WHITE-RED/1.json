@@ -418,13 +418,13 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"none"
-		},
+		}
 #if($saleMode == "1159")
 #set($price2_s = $util.toString($price1Description))
 #set($price_len = $util.strlen($price2_s))
 #set($price2_int = $price2_s.substring(0, $price_len - 3))
 #set($price2_dec = $price2_s.substring($price_len - 2, $price_len))
-
+,
 		{
 			"start_x":145,
 			"start_y":0,
