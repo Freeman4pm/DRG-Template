@@ -573,8 +573,8 @@
 #end
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 {
-			"start_x":278,
-			"start_y":90,
+			"start_x":280,
+			"start_y":88,
 			"end_x":399,
 			"end_y":105,
 			"content_type":"CONTENT_TYPE_TEXT",
