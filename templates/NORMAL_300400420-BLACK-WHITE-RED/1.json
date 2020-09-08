@@ -573,7 +573,7 @@
 #end
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 {
-			"start_x":280,
+			"start_x":270,
 			"start_y":88,
 			"end_x":399,
 			"end_y":105,
@@ -603,7 +603,7 @@
 			"line_spacing":0
 		},
 {
-			"start_x":280,
+			"start_x":270,
 			"start_y":102,
 			"end_x":399,
 			"end_y":130,
@@ -633,7 +633,7 @@
 			"line_spacing":0
 		},
 {
-			"start_x":280,
+			"start_x":270,
 			"start_y":130,
 			"end_x":399,
 			"end_y":175,
