@@ -584,9 +584,10 @@
 			"visible":true,
 			"line_thickness":1,
 			"diagonal_type":"MAJOR"
-		},
+		}
 #end
 #if($price3 > 0)
+,
 		{
 			"start_x":152,
 			"start_y":93,
@@ -617,9 +618,10 @@
 			"split_by_space":false,
 			"line_spacing":5,
 			"text_decoration":"none"
-		},
+		}
 #end
-
+#if($price3Description != "NULL")
+,
 		{
 			"start_x":192,
 			"start_y":93,
@@ -702,7 +704,8 @@
 			"text_decoration_script":"none",
 			"fraction_digits":2
 		}
-#if($price3 > 0)
+#end
+#if($price3 > 0 and $price3Description != "NULL")
 ,
 		{
 			"start_x":201,
