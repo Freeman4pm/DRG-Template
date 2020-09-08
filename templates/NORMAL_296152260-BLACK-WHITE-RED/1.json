@@ -39,7 +39,7 @@
 			"line_stroke":1,
 			"visible":true
 		},
-#if($rsrvTxt1 != "" or $saleMode == "1170")
+#if($rsrvTxt1 == "" or $saleMode == "1170")
 		{
 			"start_x":0,
 			"start_y":0,
