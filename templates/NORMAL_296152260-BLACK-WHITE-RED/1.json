@@ -39,6 +39,7 @@
 			"line_stroke":1,
 			"visible":true
 		},
+#if($rsrvTxt1 != "")
 		{
 			"start_x":0,
 			"start_y":0,
@@ -59,6 +60,7 @@
 			"line_stroke":0,
 			"visible":true
 		},
+#end
 		{
 			"start_x":2,
 			"start_y":38,
