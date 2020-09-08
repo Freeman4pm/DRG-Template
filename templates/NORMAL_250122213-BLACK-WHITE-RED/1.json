@@ -586,7 +586,7 @@
 			"diagonal_type":"MAJOR"
 		}
 #end
-#if($price3 > 0)
+#if($price3 > 0 and $price3Description != "NULL")
 ,
 		{
 			"start_x":152,
