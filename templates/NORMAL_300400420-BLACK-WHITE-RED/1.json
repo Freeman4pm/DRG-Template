@@ -604,7 +604,7 @@
 		},
 {
 			"start_x":290,
-			"start_y":110,
+			"start_y":105,
 			"end_x":385,
 			"end_y":145,
 			"content_type":"CONTENT_TYPE_TEXT",
@@ -634,7 +634,7 @@
 		},
 {
 			"start_x":290,
-			"start_y":150,
+			"start_y":145,
 			"end_x":385,
 			"end_y":175,
 			"content_type":"CONTENT_TYPE_TEXT",
