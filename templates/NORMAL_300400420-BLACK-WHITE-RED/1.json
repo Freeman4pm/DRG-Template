@@ -497,9 +497,9 @@
 #if($saleMode == '1213' || $saleMode == '1214')
 		{
 			"start_x":286,
-			"start_y":14,
+			"start_y":10,
 			"end_x":386,
-			"end_y":94,
+			"end_y":90,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -518,9 +518,9 @@
 #end
 		{
 			"start_x":296,
-			"start_y":19,
+			"start_y":15,
 			"end_x":376,
-			"end_y":89,
+			"end_y":85,
 			"content_type":"CONTENT_TYPE_ABORDER",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -665,9 +665,9 @@
 #end
 		{
 			"start_x":304,
-			"start_y":24,
+			"start_y":20,
 			"end_x":364,
-			"end_y":63,
+			"end_y":59,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"ZELF",
@@ -700,9 +700,9 @@
 		},
 		{
 			"start_x":305,
-			"start_y":61,
+			"start_y":57,
 			"end_x":365,
-			"end_y":92,
+			"end_y":88,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"SCANNEN",
@@ -735,9 +735,9 @@
 		},
 		{
 			"start_x":314,
-			"start_y":80,
+			"start_y":76,
 			"end_x":358,
-			"end_y":99,
+			"end_y":95,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -761,9 +761,9 @@
 		},
 		{
 			"start_x":352,
-			"start_y":35,
+			"start_y":31,
 			"end_x":399,
-			"end_y":72,
+			"end_y":68,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -787,9 +787,9 @@
 		},
 		{
 			"start_x":274,
-			"start_y":34,
+			"start_y":30,
 			"end_x":318,
-			"end_y":72,
+			"end_y":68,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
@@ -813,9 +813,9 @@
 		},
 		{
 			"start_x":315,
-			"start_y":6,
+			"start_y":2,
 			"end_x":359,
-			"end_y":33,
+			"end_y":29,
 			"content_type":"CONTENT_TYPE_LINE",
 			"content_title":"NONE",
 			"content_color":"BLACK",
