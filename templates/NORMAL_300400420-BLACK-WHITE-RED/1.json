@@ -574,9 +574,9 @@
 #if($saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
 {
 			"start_x":290,
-			"start_y":80,
-			"end_x":364,
-			"end_y":90,
+			"start_y":100,
+			"end_x":385,
+			"end_y":120,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"1 artikel wegen",
@@ -605,9 +605,9 @@
 		},
 {
 			"start_x":290,
-			"start_y":95,
-			"end_x":364,
-			"end_y":105,
+			"start_y":125,
+			"end_x":385,
+			"end_y":145,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"2 sticker op artikel plakken",
@@ -636,9 +636,9 @@
 		},
 {
 			"start_x":290,
-			"start_y":110,
-			"end_x":364,
-			"end_y":120,
+			"start_y":155,
+			"end_x":385,
+			"end_y":175,
 			"content_type":"CONTENT_TYPE_TEXT",
 			"content_title":"NONE",
 			"content_value":"3 barcode scannen",
