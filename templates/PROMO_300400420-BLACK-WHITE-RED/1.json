@@ -410,7 +410,6 @@
 		},
 		
 #if($saleMode == '1213' || $saleMode == '1214' || $saleMode == '1216' || $saleMode == '1217' || $saleMode == '1218')
-,
 #if($saleMode == '1213' || $saleMode == '1214')
 		{
 			"start_x":286,
